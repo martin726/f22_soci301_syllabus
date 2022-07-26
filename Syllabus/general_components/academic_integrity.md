@@ -1,0 +1,3 @@
+## Academic Integrity
+
+Academic honesty and integrity are core values in this class and at Chico State. Acts of plagiarism, dishonesty, and misrepresentation of work are just a few examples of inappropriate behavior in this class. Breeches in academic honesty and integrity will be submitted to the Office of Student Conduct, Rights and Responsibilities for sanction. Additionally, breaches in academic honesty will result in a failing grade for the assignment to which the breach was committed, or, at the discretion of the instructor, a failing grade for the course. For more information about academic honesty and integrity, please visit http://www.csuchico.edu/prs/EMs/2004/04-036.shtml.

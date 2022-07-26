@@ -1,5 +1,11 @@
-## COVID policy
+# COVID policy
 
-While on campus, students are required to follow all USA COVID-19 policies and practices. These policies can be found at [https://www.southalabama.edu/coronavirus/](https://www.southalabama.edu/coronavirus/). Be advised that policies may change during the semester, and students should check the University's Coronavirus Update page regularly. 
+[Per the California State University Chancellor's Office policy, the Covid-19 vaccine and booster is required for students, faculty and staff, unless you obtain an exemption from the university](https://calstate.policystat.com/policy/11030468/latest/). Currently, Chico State is requiring everyone on campus to wear an approved face covering in all indoor campus spaces. Accordingly, all students are required to wear an appropriate face mask covering the nose and mouth in order to participate in this course. Policies and requirements regarding COVID-19 are subject to change pursuant to campus, local, state and/or federal guidelines.  
 
-There is also a student incentive program for getting vaccinated. Details about insentives can be found at [https://www.southalabama.edu/coronavirus/vaccineincentive/](https://www.southalabama.edu/coronavirus/vaccineincentive/)
+Please note that dishonesty relating to the vaccination policy and/or your failure to comply with any other COVID-19 related safety policy or mandate, including the face covering requirement, may result in disciplinary action against you through the office of Student Conduct, Rights and Responsibilities, which can include suspension or expulsion from the California State University system. 
+
+Individuals unable to wear a face covering due to a medical condition should contact the Accessibility Resource Center by phone at (530) 898-5959 or by email at arcdept@csuchico.edu. 
+
+COVID policy re: attendance: 
+Attendance in this class is mandatory; if you do not attend class, you will not pass. If, however, you are a campus student attending physical class and you are symptomatic, please contact me (via email), do not attend the in-person class, and contact the COVID hotline at **530-898-2222** for additional direction. Also, make sure you keep me updated as you learn more about your health status. 
+
