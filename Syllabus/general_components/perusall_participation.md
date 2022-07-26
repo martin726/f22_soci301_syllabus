@@ -1,3 +1,11 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+
+
 ## Weekly Perusall Participation (15% of Final Grade)
 
 For reading we will use [Perusall](https://support.perusall.com/hc/en-us), a social annotation tool that allows students and their instructors to collaboratively markup .pdf documents. Instead of only reading a document and discussing it, Perusall brings discussion to text. 
@@ -16,4 +24,8 @@ For reading assignments in Perusall, you will be evaluated based on the followin
 4.	Distribution: Are annotations made throughout the document? If most annotations are made in a single area, it indicates the student did not engage with the entire document. If annotations are distributed throughout the entire document, it indicates the student did engage with the reading in entirety. 
 5.	Asking/Answering Questions: Ask and respond to each other’s comments and questions in their group forums. 
 
-? Common question! What if I don’t have any questions or comments? Elaborate on a specific topic, connect to personal experience or perspective, extension to another topic or perspective, paraphrase part of the text. 
+**Common Question: What if I don’t have any questions or comments?** Elaborate on a specific topic, connect to personal experience or perspective, extension to another topic or perspective, paraphrase part of the text.
+
+
+
+

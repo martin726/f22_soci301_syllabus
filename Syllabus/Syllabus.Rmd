@@ -35,6 +35,7 @@ fontsize: 11pt
 header-includes: \linespread{1.05}
   -\usepackage{float}
   -\usepackage{booktabs}
+  -\usepackage{fontawesome5}
  
 ---
 
@@ -55,10 +56,10 @@ library(knitcitations)
 library(rcrossref)
 library(bibtex)
 library(kableExtra)
+library(fontawesome)
 
 bib <- ReadBib("bib_main.bib")
 myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
-
 
 #This code chunk sets up a table of meeting days for the course.
 #You can set days of the week for course meetings (e.g. Monday and Wednesday).
@@ -181,6 +182,11 @@ Weights <- tribble(~ Item,
 
 ```
 
+```{r indigenous_land_statement, child='general_components/indigenous_land_statement.md'}
+
+
+```
+
 # Course Description
 
 We all construct and use social theories in our everyday lives. Theory is simply a means of understanding and explaining the social world around us. Social theory allows for seeing patterns, forces, and power relations, encouraging us to make sense of all kinds of social phenomena – ranging from everyday interactions between friends to decades of violent colonization. In this course, we will read theoretical texts every week, and then we will spend time understanding how they have been used to understand specific social phenomena. Theory must be relevant to real life “social facts” for it to survive, and we will work toward bridging the abstract concepts in our readings with the world around us. By the end of the class, you will likely find that some theories are your favorites – more relevant to your everyday life and your own sociological interests than others.
@@ -250,7 +256,6 @@ bib["dillon2010twp"]
 ```
 
 # Determination of Final Grade
-At the university level, it is a great achievement to earn the grade of A. It is especially worthwhile to earn an A as an overall final course grade. The grade of A is the highest recognition and commendation there is at the university classroom level. Its use in this course will be in that spirit, consistent with the traditional meaning of “excellence.” At the same time, I wish to make it perfectly clear that **your grades in this class are NOT an evaluation of you as a person.** For people on both ends of the grading scale, it is sometimes necessary to remember that you are more than just your grades. 
 
 Table \ref{tab:grade_scale} displays the grading scale that is used to determine a letter grade.
 
@@ -324,15 +329,31 @@ Prompt yourself with questions that have short, concrete answers.
 
 ```
 
+# Creating a Safe and Inclusive Learning Environment 
+
+```{r mandatory_reporting, child='general_components/mandatory_reporting.md'}
+
+```
+
+```{r Diversity Statements, child='general_components/diversity_statements.md'}
+
+```
+
+```{r Mental Health, child='general_components/mental_health.md'}
+
+```
+
 ```{r other_course_policies, child='general_components/other_course_policies.md'}
 
 ```
 
-\newpage
+# University Policies and Campus Resources
 
-# Campus resources
+```{r Academic Integrity, child='general_components/academic_integrity.md'}
 
-```{r Writing Center, child='general_components/writing_center.md'}
+```
+
+```{r Student Services, child='general_components/student_services.md'}
 
 ```
 
@@ -344,15 +365,11 @@ Prompt yourself with questions that have short, concrete answers.
 
 ```
 
-```{r Mental Health, child='general_components/mental_health.md'}
-
-```
-
 # Final thoughts
 
 This document is a roadmap for our semester. We learn about the Earth together and our individual experiences shape how we interpret and value data. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know.
 
-__If this document is updated, a copy will be supplied to you via Blackboard and changes will be announced in class.__
+__If this document is updated, a copy will be supplied to you via Black Board and changes will be announced in class.__
 
 \newpage 
 
