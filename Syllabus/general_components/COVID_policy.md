@@ -1,4 +1,4 @@
-# COVID policy
+# COVID policy {#covid_policy}
 
 [Per the California State University Chancellor's Office policy, the Covid-19 vaccine and booster is required for students, faculty and staff, unless you obtain an exemption from the university](https://calstate.policystat.com/policy/11030468/latest/). Currently, Chico State is requiring everyone on campus to wear an approved face covering in all indoor campus spaces. Accordingly, all students are required to wear an appropriate face mask covering the nose and mouth in order to participate in this course. Policies and requirements regarding COVID-19 are subject to change pursuant to campus, local, state and/or federal guidelines.  
 

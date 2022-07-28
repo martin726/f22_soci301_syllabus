@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  27 JUL 2022 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  27 JUL 2022 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,7 +430,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--128
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 190.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [2] [3]
+)
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--249
+
+ []
+
+[2] [3]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -441,21 +456,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 AED: lastpage setting LastPage
 [14] (./Syllabus.aux)
 Package rerunfilecheck Info: File `Syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: 212FC0EEDB9270BE630041A474DE0612;8976.
+(rerunfilecheck)             Checksum: 57B5AE41C2565972EEA8FA6CFDB37EEC;9030.
  ) 
 Here is how much of TeX's memory you used:
  10249 strings out of 479983
- 164087 string characters out of 5886802
- 482520 words of memory out of 5000000
+ 164051 string characters out of 5886802
+ 482529 words of memory out of 5000000
  28189 multiletter control sequences out of 15000+600000
  503139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,13n,67p,1197b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,12n,67p,1197b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Syllabus.pdf (14 pages, 125192 bytes).
+Output written on Syllabus.pdf (14 pages, 125123 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 341 compressed objects within 4 object streams
+ 372 PDF objects out of 1000 (max. 8388607)
+ 344 compressed objects within 4 object streams
  113 named destinations out of 1000 (max. 500000)
  337 words of extra memory for PDF output out of 10000 (max. 10000000)
 

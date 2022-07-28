@@ -218,10 +218,10 @@ This course requires you to read a lot of social theory, which will be abstract 
 This course is a requirement for the sociology major.It has a prerequisite of SOCI 300, Classical Social Theory, though this prerequisite may be waived with permission of the instructor. *Note that if you take SOCI 301 prior to or concurrent with SOCI 300, you will not be able to repeat SOCI 300 for forgiveness.*
 
 ## Important Dates
-Sept. 2nd - Last day to drop without instructor's approval\
-Oct. 24th - Last day to drop and receive financial credit for refund\
-Nov. 10th - Last day to drop or withdraw\
-See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
+  - Sept. 2nd - Last day to drop without instructor's approval\
+  - Oct. 24th - Last day to drop and receive financial credit for refund\
+  - Nov. 10th - Last day to drop or withdraw\
+  - See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
 
 # Course Readings
 
@@ -242,13 +242,12 @@ See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca
 
 # Structure and Character of a ChicoFlex Course 
 
--  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Blackboard Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Blackboard Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Blackboard Learn (this will ensure instructor access to emails).*
+-  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Blackboard Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” \textcolor{cyan}{Days and times will use Pacific Standard Time (PST).} This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Blackboard Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Blackboard Learn (this will ensure instructor access to emails).*
 
 -  Also, given the fact that we’re still in a global pandemic, the course will proceed fluidly. I want this class to work for all of us and will remain sensitive to the ongoing needs of students while adhering to public health standards and guidelines. 
 
 ## Technological Problems: 
-
-- Occasional problems with technology are a common part of the modern university experience. If you have any technical difficulties, you **should call the university technology folks at 530-898-6000**. After you call them, if they are not able to resolve the issue, please email me with a description of the problem, the name of the person you spoke to in that office, what they and/or you are doing to resolve the problem, and the expected timeline for its resolution. If you are having trouble with Blackboard Learn during a quiz or other assignment, take a screen shot or photo of the computer screen and the error message you receive and email it to me AND contact ITSS at 530-898-6000. If you experience technical difficulties while submitting an assignment, call ITSS at 1-800-898-6000 and send a copy of the assignment to me via Blackboard Learn. If any of these things happen when ITSS is closed, please follow up with them immediately the next business day. You MUST contact ITSS to resolve the issue if you are asking for any kind of leniency or extension. 
+- Occasional problems with technology are a common part of the modern university experience. If you have any technical difficulties, you [**should call IT Support Services (ITSS) at 530-898-6000**](https://www.csuchico.edu/itss/). After you call them, if they are not able to resolve the issue, please email me with a description of the problem, the name of the person you spoke to in that office, what they and/or you are doing to resolve the problem, and the expected timeline for its resolution. If you are having trouble with Blackboard Learn during a quiz or other assignment, take a screen shot or photo of the computer screen and the error message you receive and email it to me AND contact ITSS at 530-898-6000. If you experience technical difficulties while submitting an assignment, call ITSS at 1-800-898-6000 and send a copy of the assignment to me via Blackboard Learn. If any of these things happen when ITSS is closed, please follow up with them immediately the next business day. You MUST contact ITSS to resolve the issue if you are asking for any kind of leniency or extension. 
 
 ```{r covid-19 policy, child='general_components/COVID_policy.md'}
 
@@ -278,7 +277,7 @@ Table \ref{tab:weight_table} displays how your final grade will be weighed accor
 
 \renewcommand{\arraystretch}{1.5}
 
-```{r Weights_Table, echo=FALSE, results='asis'}
+```{r Weights Table, echo=FALSE, results='asis'}
 
 kable(Weights,
       align = c("l", "c"), format="latex", booktabs=T, 
@@ -296,9 +295,10 @@ kable(Weights,
 
 ## Attendance and Class Participation (10% of Final Grade)
 
-The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. Participation also includes consistent involvement in online interactive activities. These activities will occur periodically during class throughout the semester. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, see “COVID Directions” (above) if you are symptomatic and an in-class student. 
+The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. Participation also includes consistent involvement in online interactive activities. These activities will occur periodically during class throughout the semester. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, [see “COVID Policy” section](#covid_policy) above if you are symptomatic and an in-class student. 
 
 In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
+
 *These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
 
 **REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** *I usually have a very strict attendance policy.* 
@@ -307,13 +307,16 @@ In addition to completing all of the assigned reading before each designated day
 
 ```
 
-## Quizzes (15% of Final Grade)
-Throughout the course, I will ask students to synthesize, analyze, and/or apply contemporary social theories and readings from the previous day(s) or week(s) via a fairly short, intense quiz (typically, 3-10 multiple-choice and/or short answer questions). The quiz closes after the posted due date. In order to avoid missing a quiz and any announcements I have, make sure you check Blackboard Learn every single day of the week. The quiz closes after the posted due date. In order to avoid missing a quiz and any announcements I have, make sure you check Blackboard Learn every single day of the week. *No quiz will be assigned the week a writing assignment is due.*
+## Quizzes (20% of Final Grade; 5% each){#quizzes}
+
+Four quizzes are required in this class. The quizzes will cover theories, ideas, and concepts from the course readings and lectures. All four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m.
+
+Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you keep up with the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
 
 ## Four (4) Analytical Response Papers (60% of Final Grade) {#writing_assignments}
 
 Four papers will be assigned for the semester. The required response papers will answer
-either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. \textcolor{blue}{Each paper must be turned in no later than 11:30 p.m. on the day that it is due.} Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Moreover, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m. (Pacific Standard Time).**
+either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. \textcolor{cyan}{Each paper must be turned in no later than 11:30 p.m. on the day that it is due.} Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Moreover, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
 
 **Due dates for all papers are listed below:**
 

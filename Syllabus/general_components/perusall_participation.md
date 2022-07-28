@@ -4,11 +4,8 @@ output:
   html_document: default
 ---
 
-
-
-## Weekly Perusall Participation (15% of Final Grade)
-
-For reading we will use [Perusall](https://support.perusall.com/hc/en-us), a social annotation tool that allows students and their instructors to collaboratively markup .pdf documents. Instead of only reading a document and discussing it, Perusall brings discussion to text. 
+## Weekly Perusall Participation (10% of Final Grade)
+For reading the primary texts (and not the textbook) we will use [Perusall](https://support.perusall.com/hc/en-us), a social annotation tool that allows students and their instructors to collaboratively markup .pdf documents. Instead of only reading a document and discussing it, Perusall brings discussion to text. 
 
 To start, register for a free Perusall account and enter the course code: [Insert Code Here]
 
@@ -23,7 +20,4 @@ For reading assignments in Perusall, you will be evaluated based on the followin
 5. Asking/Answering Questions: Ask and respond to each other’s comments and questions in their group forums. 
 
 **Common Question: What if I don’t have any questions or comments?** Elaborate on a specific topic, connect to personal experience or perspective, extension to another topic or perspective, paraphrase part of the text.
-
-
-
 
