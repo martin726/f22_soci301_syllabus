@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  26 JUL 2022 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  27 JUL 2022 19:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -437,25 +437,25 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5] [6] [7] [8] [9] [10] [11] [12] 
+[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] 
 AED: lastpage setting LastPage
-[13] (./Syllabus.aux)
+[14] (./Syllabus.aux)
 Package rerunfilecheck Info: File `Syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: 520E6570F9ACB6570DFA8A4EF055008C;8486.
+(rerunfilecheck)             Checksum: 212FC0EEDB9270BE630041A474DE0612;8976.
  ) 
 Here is how much of TeX's memory you used:
- 10242 strings out of 479983
- 163864 string characters out of 5886802
- 479383 words of memory out of 5000000
- 28186 multiletter control sequences out of 15000+600000
+ 10249 strings out of 479983
+ 164087 string characters out of 5886802
+ 482520 words of memory out of 5000000
+ 28189 multiletter control sequences out of 15000+600000
  503139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,67p,1197b,539s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,13n,67p,1197b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Syllabus.pdf (13 pages, 122070 bytes).
+Output written on Syllabus.pdf (14 pages, 125192 bytes).
 PDF statistics:
- 358 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
- 109 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 341 compressed objects within 4 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 337 words of extra memory for PDF output out of 10000 (max. 10000000)
 

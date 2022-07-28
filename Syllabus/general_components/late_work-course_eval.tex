@@ -1,0 +1,92 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+
+\hypertarget{late-work-and-student-emergencies}{%
+\subsection{Late Work and Student
+Emergencies}\label{late-work-and-student-emergencies}}
+
+Generally, late papers, past due participation in Perusall or
+extra-credit work will \emph{not} be accepted in this course. However,
+there are some important exceptions to this rule. Whenever unexpected
+life challenges/emergencies or an illness interrupts your academic work,
+other measures will apply. If you are ill or face an emergency, you are
+asked to please notify the instructor immediately (via email or in
+person), and provide documentation of what has occurred to justify
+making-up your work or turning it in beyond it due date. Moreover, given
+the current COVID-19 pandemic, I am aware that your situation can change
+dramatically unexpectedly.
+\textcolor{red}{If you are facing any personal, medical, financial or other challenges that impact your academic work, please inform me right away and we will work out a solution to your problem. I will do my best to accommodate your situation and allow you to complete your work at a later time if you missed a deadline.}
+\textbf{\textcolor{red}{However, the longer you wait, the less likely I am to accept a late assignment. Furthermore, I reserve the right to refuse any late work, but keeping the lines of communication open is your best bet if you fall a little behind on an assignment.}}
+
+\faAsterisk Please also note that if you foresee being absent due to a
+conflict with religious observance(s), you must notify the instructor of
+your prospective absence during the first week of classes. If you have
+any questions, do not hesitate to discuss these issues with the
+instructor in person or via BlackBoard.
+
+\end{document}

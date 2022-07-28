@@ -4,7 +4,7 @@ output:
   html_document: default
 ---
 
-## Statement of Inclusive Excellence
+## Statement of Commitment to Diversity, Equity, and Inclusion
 Education is transformative, and open intellectual inquiry is the foundation of a university education and a democratic society. In the spirit of shared humanity and concern for our community and world, the faculty of Chico State's Sociology Department celebrate diversity as central to our mission and affirm our solidarity with those individuals and groups most at risk. In line with our departmental goals, we disavow all racism, xenophobia, homophobia, sexism, Islamophobia, anti-Semitism, classism, ableism, and hate speech or actions that attempt to silence, threaten, and degrade others.
 
 As educators, we affirm that language and texts, films and stories help us to understand the experiences of others whose lives are different from ours. We value critical reasoning, evidence-based arguments, self-reflection, and the imagination. Building on these capacities, we hope to inspire empathy, social and environmental justice, and an ethical framework for our actions. We advocate for a diverse campus, community, and nation inclusive of racial minorities, women, immigrants, the LGBTQ+ community, and people of all religious faiths.

@@ -8,6 +8,7 @@ output:
     fig_caption: yes
     number_sections: yes
     latex_engine: pdflatex
+    extra_dependencies: xcolor
     template: Syllabus_template.tex
   html_document:
     df_print: paged
@@ -36,7 +37,9 @@ header-includes: \linespread{1.05}
   -\usepackage{float}
   -\usepackage{booktabs}
   -\usepackage{fontawesome5}
- 
+  -\usepackage{color}
+  -\usepackage{soul}
+
 ---
 
 ```{r setup, include=FALSE, ache=F, message=F, warning=F, results="hide"}
@@ -57,12 +60,14 @@ library(rcrossref)
 library(bibtex)
 library(kableExtra)
 library(fontawesome)
+library(bibtex)
 
-bib <- ReadBib("bib_main.bib")
+bib <- read.bib("~/Documents/Github/syllabi/fall_2022/soci_301/f22_soci301_syllabus/Syllabus/general_components/bib_main.bib")
+
 myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 
 #This code chunk sets up a table of meeting days for the course.
-#You can set days of the week for course meetings (e.g. Monday and Wednesday).
+#You can set days of the week for course meetings (i.e.,. Tuesday and Wednesday).
 #Semester start and end dates are selected and then university holidays like spring break are specified.
 
 #Days of the week that the course meets. Must be full day name in quotes.
@@ -109,7 +114,7 @@ Holidays
 
 #Create a list of semester days excluding holidays.
 SemesterDays <- SemesterDays[!SemesterDays %in% Holidays]
-SemesterDays
+
 #Make dataframe with all semester days.
 ClassDays <- data.frame(index = 1:length(SemesterDays))
 
@@ -132,7 +137,6 @@ MeetingDays$Class <- 1:nrow(MeetingDays)
 #Replace this with c("Lecture topic 1",...,"Lecture topic N") to fill in table.
 
 Lecture_Topic <- 1:nrow(MeetingDays)
-
 
 MeetingDays <- bind_cols(MeetingDays, Lecture = Lecture_Topic)
 
@@ -166,15 +170,13 @@ Grades <- tribble( ~ Grade,
 Weights <- tribble(~ Item,
                     ~ Weight,
                     "Attendance & Participation",
-                    "15 %",
+                    "10 %",
                     "Weekly Perusall Participation & Discussion",
-                    "15 %",
+                    "10 %",
                     "Quizzes", 
-                    "15 %",
-                    "Three (3) Writing Assignments",
-                    "25 %", 
-                    "Final Paper",
-                    "30 %", 
+                    "20 %",
+                    "Analytical Response Papers",
+                    "60 %",
                     "TOTAL", 
                     "100 %"
                   )
@@ -225,17 +227,18 @@ See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca
 
 ## Required Textbooks
 
-```{r new, echo = FALSE, results="asis"} 
++ 
+    ```{r new, echo = FALSE, results="asis"} 
 
-bib["dillon2010twp"]
+    bib["dillon_introduction_2020"]
 
-``` 
+    ``` 
 
 - We will be using the 3rd edition which looks [this](https://www.abebooks.com/Introduction-Sociological-Theory-Theorists-Concepts-Applicability/31208296728/bd?cm_mmc=ggl-_-US_Shopp_Textbook-_-product_id=COM9781119410911USED-_-keyword=&gclid=Cj0KCQjwuO6WBhDLARIsAIdeyDLJvr2N_LKW1qd-49HuMemlLuCRQT4yR3PKWnmeqMDWBDwy9LNFFRUaAlcyEALw_wcB). Previous editions are not permitted. 
 
 ## Additional Required Readings
 
--  Primary texts and other required readings will be available electronically on the Blackboard Learn course page and on Perusall.
+-  Primary texts and other required readings will be available electronically on the Black Board course page and on Perusall.
 
 # Structure and Character of a ChicoFlex Course 
 
@@ -276,6 +279,7 @@ Table \ref{tab:weight_table} displays how your final grade will be weighed accor
 \renewcommand{\arraystretch}{1.5}
 
 ```{r Weights_Table, echo=FALSE, results='asis'}
+
 kable(Weights,
       align = c("l", "c"), format="latex", booktabs=T, 
       col.names = c("Item", "% of Final Grade"), 
@@ -290,12 +294,11 @@ kable(Weights,
 
 \newpage
 
-## Attendance and Class Participation (15% of Final Grade)
+## Attendance and Class Participation (10% of Final Grade)
 
-The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, see “COVID Directions” (above) if you are symptomatic and an in-class student. 
+The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. Participation also includes consistent involvement in online interactive activities. These activities will occur periodically during class throughout the semester. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, see “COVID Directions” (above) if you are symptomatic and an in-class student. 
 
 In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
-
 *These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
 
 **REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** *I usually have a very strict attendance policy.* 
@@ -307,11 +310,35 @@ In addition to completing all of the assigned reading before each designated day
 ## Quizzes (15% of Final Grade)
 Throughout the course, I will ask students to synthesize, analyze, and/or apply contemporary social theories and readings from the previous day(s) or week(s) via a fairly short, intense quiz (typically, 3-10 multiple-choice and/or short answer questions). The quiz closes after the posted due date. In order to avoid missing a quiz and any announcements I have, make sure you check Blackboard Learn every single day of the week. The quiz closes after the posted due date. In order to avoid missing a quiz and any announcements I have, make sure you check Blackboard Learn every single day of the week. *No quiz will be assigned the week a writing assignment is due.*
 
-## Three (3) Writing Assignments (25% of Final Grade) {#writing_assignments}
-Students will complete at least 3 small writing assignments throughout the course. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. Guidelines for the papers will be given out at least two weeks in advance. Papers will have a word limit, approx. 750 words (roughly 3 double-spaced pages), typed, 12-point font, 1-inch margins, Times New Roman (11-point Arial font is also appropriate). Proper grammar and APA citation of sources is expected. **No other format will be accepted.** Late papers will be deducted 20% of its overall grade each day that it is overdue. 
+## Four (4) Analytical Response Papers (60% of Final Grade) {#writing_assignments}
 
-## Final Paper (30% of Final Grade)
-Building upon the ideas you developed in the writing assignments and other assignments, you will write a **final 1,000 word (roughly 4 double-spaced pages) paper for this class.** In this paper, you will apply, expand, or challenge theories we covered in class. In this paper, you will apply, expand, or challenge theory. If you apply theory, you will use one of the main theoretical frameworks we covered in the course to sociologically analyze a cultural artifact (examples: documentary film(s), popular film(s), popular music, magazines, novels, etc.; speak with me about the appropriate cultural artifact). If you expand theory, you will make an argument for the expansion of any theory we have covered in the course, thus making that theory better, more contemporary, and/or more inclusive. If you challenge theory, you will accurately describe the theory you are challenging, make an argument for how and why you are challenging the theory, and perhaps offer a new theory that might replace the theory you are challenging. Before you begin your paper, speak with me about your main ideas and outline for the paper. I will post a detailed rubric and example of an excellent Final Paper on Blackboard about a month before the due date. 
+Four papers will be assigned for the semester. The required response papers will answer
+either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. \textcolor{blue}{Each paper must be turned in no later than 11:30 p.m. on the day that it is due.} Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Moreover, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m. (Pacific Standard Time).**
+
+**Due dates for all papers are listed below:**
+
+\renewcommand{\arraystretch}{1.15}
+
+|**Paper**| **Focus**                                 | **Due Date**   |
+|---------|-------------------------------------------|----------------|
+|Paper #1|Structural Functionalist Theories           |Sunday, Sept. 25|
+| | |
+|Paper #2|Symbolic Interactionism and the Work of     |Sunday, Oct. 23 |
+|        |Erving Goffman; **OR**, Elite, Neo-Marxist, |                |
+|        |and Critical Theories                       |                |
+| | |
+|Paper #3|Post-Structuralist Theory and the Work of   |Sunday, Nov. 20 |
+|        |Michel Foucault; **OR**, Pierre Bourdieu and|                |
+|        |Theories of Social/ Cultural Reproduction   |                |
+|        |and Inequality                              |                |
+| | |
+|Paper #4|Theories of Race and Ethnicity; **OR**,     |Tuesday, Dec. 13| 
+|        |Feminist, Queer, and Intersectionality      |                |
+|        |Theories
+
+
+### Guidelines for papers 
+Papers will have a word limit, approximately 1000 words (roughly 4 double-spaced pages), typed, 12-point font, 1-inch margins, Times New Roman (11-point Arial font is also appropriate). Proper grammar and APA citation of sources is expected. **No other format will be accepted.** Late papers will be deducted 20% of its overall grade each day that it is overdue. 
 
 ### Tips and tricks for good writing
 
@@ -321,7 +348,7 @@ Write and then revise. Ask for feedback from peers or wait until you have some d
 
 Prompt yourself with questions that have short, concrete answers.
 
-```{r late_work-course_eval, child='general_components/late_work-course_eval.md'}
+```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
 
 ```
 
@@ -367,7 +394,7 @@ Prompt yourself with questions that have short, concrete answers.
 
 # Final thoughts
 
-This document is a roadmap for our semester. We learn about the Earth together and our individual experiences shape how we interpret and value data. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know.
+This document is a roadmap for our semester. We learn about social theory together and its applicability towards understanding our environment. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
 
 __If this document is updated, a copy will be supplied to you via Black Board and changes will be announced in class.__
 
@@ -375,17 +402,28 @@ __If this document is updated, a copy will be supplied to you via Black Board an
 
 \renewcommand{\arraystretch}{1.25}
 
+# Course and Reading Schedule 
+
+The following is a tentative schedule for the Fall 2022 semester. It lists readings and due dates, and **may be subject to change.** Any changes will be announced in class and will be shown in Black Board immediately. Use this information to schedule accordingly. If you miss class, it is your responsibility to find out if any scheduling changes were made in class.
+
+Table \ref{tab:course_schedule} displays the course schedule for the Fall 2022 semester. It lists the days and weeks we will meet for lecture. **We will not meet during Fall Break (Nov. 21-25).**
+
 ```{r Schedule, echo=FALSE}
+
 kable(MeetingDays[,c("Date",
+                     "Weekday",
                      "Class",
                      "Week",
-                     "Lecture")
-                     ],
-  caption = "Course Schedule.",
-  align = c("l",
-            "c",
-            "c",
-            "l")
-)
+                     "Lecture")],
+  caption = "Course Schedule.", format="latex", booktabs=T, linesep="", 
+  label="course_schedule", align = c("l", "l", "c", "c","c")) %>%
+  kable_styling(font_size=10, latex_options="hold_position", full_width=F) %>%
+  row_spec(0, bold=T)
+
+
 ```
+
+
+
+
 
