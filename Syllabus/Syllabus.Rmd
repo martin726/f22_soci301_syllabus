@@ -458,14 +458,12 @@ advdate <- function(obj, adv) {
 
 ```
 
-\bigbreak
-
-## `r advdate(tue, 1)`: INTRODUCTION AND COURSE OVERVIEW
+## `r advdate(tue, 1)`: Introduction and Overview of Course
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 2)`: STRUCTURAL FUNCTIONALIST THEORIES, I
+## `r advdate(tue, 2)`: Structural Functionalist Theories, I
     
 **Required Readings:**
 
@@ -485,16 +483,16 @@ advdate <- function(obj, adv) {
     ```
     \colorbox{Goldenrod}{\bf{[E-Posting]}}
     
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 3)`: STRUCTURAL FUNCTIONALIST THEORIES, II
+## `r advdate(tue, 3)`: Structural Functionalist Theories, II
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 3a, echo=FALSE, results='asis'}
@@ -512,16 +510,16 @@ advdate <- function(obj, adv) {
     \colorbox{Goldenrod}{\bf{[E-Posting]}}
 
 
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 4)`: SYMBOLIC INTERACTIONISM & THE WORK OF ERVING GOFFMAN, I
+## `r advdate(tue, 4)`: Symbolic Interactionism & the Work of Erving Goffman, I
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 4a, echo=FALSE, results='asis'}
@@ -540,16 +538,16 @@ advdate <- function(obj, adv) {
     \colorbox{Goldenrod}{\bf{[E-Posting]}}
 
 
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 5)`: THE WORK OF ERVING GOFFMAN, II
+## `r advdate(tue, 5)`: The Work of Erving Goffman, II
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 5, echo=FALSE, results='asis'}
@@ -560,7 +558,7 @@ advdate <- function(obj, adv) {
     \colorbox{Goldenrod}{\bf{[E-Posting: Read: Introduction and Chapter 1 Only]}}
     
     
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 - **Paper #1 due by Sunday 11:59 p.m.**
@@ -569,9 +567,9 @@ advdate <- function(obj, adv) {
 \bigbreak
 \hrule
 
-## `r advdate(tue, 6)`: POWER ELITE THEORIES
+## `r advdate(tue, 6)`: Power Elite Theories
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 6a, echo=FALSE, results='asis'}
@@ -589,16 +587,16 @@ advdate <- function(obj, adv) {
     ```
     \colorbox{Goldenrod}{\bf{[E-Posting]}}
 
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 7)`: NEO-MARXISM AND CRITICAL THEORIES
+## `r advdate(tue, 7)`: Neo-Marxism and Critical Theories
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 7a, echo=FALSE, results='asis'}
@@ -618,16 +616,16 @@ advdate <- function(obj, adv) {
     ```
     \colorbox{Goldenrod}{\bf{[E-Posting}}
 
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 8)` POST-STRUCTURALISM & THE WORK OF MICHEL FOUCAULT, I
+## `r advdate(tue, 8)` Post-Structuralism & the Work of Michel Foucault, I
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 8a, echo=FALSE, results='asis'}
@@ -645,16 +643,16 @@ advdate <- function(obj, adv) {
     ```
     \colorbox{Goldenrod}{\bf{[E-Posting]}}
     
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 9)`: THE WORK OF MICHEL FOUCAULT, II
+## `r advdate(tue, 9)`: The Work of Michel Foucault, II
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 9a, echo=FALSE, results='asis'}
@@ -672,7 +670,7 @@ advdate <- function(obj, adv) {
     ```
     \colorbox{Goldenrod}{\bf{[E-Posting: Read: 15-73 only]}}
 
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 - **Paper #2 due by Sunday 11:59 p.m.**
@@ -681,9 +679,9 @@ advdate <- function(obj, adv) {
 \bigbreak
 \hrule
 
-## `r advdate(tue, 10)`: THEORIES OF SOCIAL/CULTURAL REPRODUCTION & INEQUALITY: THE WORK OF PIERRE BOURDIEU I
+## `r advdate(tue, 10)`: Theories of Social/Cultural Reproduction & Inequality: The Work of Pierre Bourdieu, I
 
-**Required Readings**
+**Required Readings:**
 
 +
     ```{r week 10a, echo=FALSE, results='asis'}
@@ -701,14 +699,14 @@ advdate <- function(obj, adv) {
     ```
     \colorbox{Goldenrod}{\bf{[E-Posting]}}
 
-\bigbreak
-\hrule
-
-**Assignments Due**
+**Assignments Due:**
 
 - Weekly Perusall Participation
 
-## `r advdate(tue, 11)`: THE WORK OF PIERRE BOURDIEU, II
+\bigbreak
+\hrule
+
+## `r advdate(tue, 11)`: The Work of Pierre Bourdieu, II
 
 +
     ```{r week 11a, echo=FALSE, results='asis'}
@@ -716,38 +714,99 @@ advdate <- function(obj, adv) {
     bib["bourdieu_language_1991"]
     
     ```
-  
-\bigbreak
-\hrule
+    \colorbox{Goldenrod}{\bf{[E-Posting: Read: pp. 43-65 and 163-170]}}
 
-## `r advdate(tue, 12)`: THEORIES OF RACE & ETHNICITY, I
+**Assignments Due:**
 
-+
-    ```{r}
-
-    ```
+- Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 13)`: THEORIES OF RACE & ETHNICITY, II
+## `r advdate(tue, 12)`: Theories of Race & Ethnicity, I
+
+
+**Required Readings:**
 
 +
-    ```{r}
+    ```{r week 12a, echo=FALSE, results='asis'}
+
+    bib["omi_racial_2020"]
 
     ```
-  
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
++
+    ```{r week 12b, echo=FALSE, results='asis'}
+
+    bib["feagin_rethinking_2013"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+   
+    
++
+    ```{r week 12c, echo=FALSE, results='asis'}
+
+    bib["winant_race_2000"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 13)`: Theories of Race & Ethnicity, II
+
+**Required Readings:**
+
+
++
+    ```{r week 13a, echo=FALSE, results='asis'}
+
+    bib["lee_americas_2004"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
++
+    ```{r week 13b, echo=FALSE, results='asis'}
+    
+    bib["wilson_declining_2011"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+    
++
+    ```{r week 13c, echo=FALSE, results='asis'}
+
+    bib["bonilla-silva_color-blind_2022"]
+
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+    
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Paper #3 due on Sunday by 11:59 p.m.**
+- **Quiz #3 must be completed by Friday 11:59 p.m.**
+
 \bigbreak
 \hrule  
 
 ## `r advdate(tue, 14)`: FALL BREAK - NO CLASSES - ENJOY YOUR BREAK!
 
-- **No required readings or assignments due this week**
+- \textcolor{BurntOrange}{\bf{No required readings or assignments due this week.}}
 
 \bigbreak
 \hrule
 
-## `r advdate(tue, 15)`: FEMINIST THEORIES, I
+## `r advdate(tue, 15)`: Feminist Theories, I
 
 +
     ```{r}
@@ -757,7 +816,7 @@ advdate <- function(obj, adv) {
 \bigbreak
 \hrule
 
-## `r advdate(tue, 16)`: FEMINIST THEORIES, II
+## `r advdate(tue, 16)`: Feminist Theories II
 
 +
     ```{r}
