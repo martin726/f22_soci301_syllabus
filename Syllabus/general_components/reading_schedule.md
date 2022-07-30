@@ -10,5 +10,6 @@ Readings we will cover are listed below. Note that I reserve the right to change
 | **Week**| **Date**      | **Topics and Readings**                                      | **Assignment(s) Due**                         |
 |:-----:|:---------------:|--------------------------------------------------------------|-----------------------------------------------|
 |     1 |  8/23 - 8/25    | **Course Overview, Requirements, and Expectations; Classical Social Theory Review and the Scope of Modern Theories of Society**  | Weekly Perusall Participation |
+|Hi|peeps|
 
 

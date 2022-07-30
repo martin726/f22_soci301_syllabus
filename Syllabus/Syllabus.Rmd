@@ -53,6 +53,8 @@ knitr::opts_chunk$set(warning=F, message=F)
 library(timeDate)
 library(tibble)
 library(dplyr)
+library(tidyr)
+library(stringr)
 library(knitr)
 library(RefManageR)
 library(knitcitations)
@@ -62,9 +64,9 @@ library(kableExtra)
 library(fontawesome)
 library(bibtex)
 
-bib <- read.bib("~/Documents/Github/syllabi/fall_2022/soci_301/f22_soci301_syllabus/Syllabus/general_components/bib_main.bib")
+bib <- read.bib("~/Documents/Github/syllabi/fall_2022/soci_301/f22_soci301_syllabus/Syllabus/general_components/soci301_bib_main.bib")
 
-myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+ myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 
 #This code chunk sets up a table of meeting days for the course.
 #You can set days of the week for course meetings (i.e.,. Tuesday and Wednesday).
@@ -218,10 +220,10 @@ This course requires you to read a lot of social theory, which will be abstract 
 This course is a requirement for the sociology major.It has a prerequisite of SOCI 300, Classical Social Theory, though this prerequisite may be waived with permission of the instructor. *Note that if you take SOCI 301 prior to or concurrent with SOCI 300, you will not be able to repeat SOCI 300 for forgiveness.*
 
 ## Important Dates
-  - Sept. 2nd - Last day to drop without instructor's approval\
-  - Oct. 24th - Last day to drop and receive financial credit for refund\
-  - Nov. 10th - Last day to drop or withdraw\
-  - See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
+- Sept. 2nd - Last day to drop without instructor's approval\
+- Oct. 24th - Last day to drop and receive financial credit for refund\
+- Nov. 10th - Last day to drop or withdraw\
+- See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
 
 # Course Readings
 
@@ -238,11 +240,11 @@ This course is a requirement for the sociology major.It has a prerequisite of SO
 
 ## Additional Required Readings
 
--  Primary texts and other required readings will be available electronically on the Black Board course page and on Perusall.
+-  Primary texts and other required readings will be available electronically on the Blackboard course page and on Perusall. An \colorbox{Goldenrod}{\bf{“E-Posting”}} notation is made next to each of these readings in the syllabus. These readings will only be available to students enrolled in the course, and are to be used only for educational purposes. 
 
 # Structure and Character of a ChicoFlex Course 
 
--  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Blackboard Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” \textcolor{cyan}{Days and times will use Pacific Standard Time (PST).} This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Blackboard Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Blackboard Learn (this will ensure instructor access to emails).*
+-  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Blackboard Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” **All times will use Pacific Standard Time (PST).** This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Blackboard Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Blackboard Learn (this will ensure instructor access to emails).*
 
 -  Also, given the fact that we’re still in a global pandemic, the course will proceed fluidly. I want this class to work for all of us and will remain sensitive to the ongoing needs of students while adhering to public health standards and guidelines. 
 
@@ -291,17 +293,13 @@ kable(Weights,
 
 **Note regarding class workload:** This is a three (3) credit hour class. You should expect to spend two hours outside of class for every one hour in class. This time outside of class will be spent on reading, assignments, and studying. This means you should plan on devoting six hours of outside time per week to this course.     
 
-\newpage
-
 ## Attendance and Class Participation (10% of Final Grade)
 
 The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. Participation also includes consistent involvement in online interactive activities. These activities will occur periodically during class throughout the semester. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, [see “COVID Policy” section](#covid_policy) above if you are symptomatic and an in-class student. 
 
 In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
 
-*These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
-
-**REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** *I usually have a very strict attendance policy.* 
+**REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** 
 
 ```{r perusall_participation, child='general_components/perusall_participation.md'}
 
@@ -309,18 +307,18 @@ In addition to completing all of the assigned reading before each designated day
 
 ## Quizzes (20% of Final Grade; 5% each){#quizzes}
 
-Four quizzes are required in this class. The quizzes will cover theories, ideas, and concepts from the course readings and lectures. All four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m.
+Four quizzes are required in this class. The quizzes will cover theories, ideas, and concepts from the course readings and lectures. **All four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m. on Friday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
 
-Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you keep up with the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
+**Important Note: Please keep in mind that your lowest quiz score will not be counted when computing final grades. Instead, your highest quiz score will be counted twice in replacement of your lowest quiz score.  All quizzes will be posted on BlackBoard and you will be provided advanced notice.**
 
-## Four (4) Analytical Response Papers (60% of Final Grade) {#writing_assignments}
+## Four (4) Analytical Response Papers (60% of Final Grade; 15% each) {#writing_assignments}
 
 Four papers will be assigned for the semester. The required response papers will answer
-either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. \textcolor{cyan}{Each paper must be turned in no later than 11:30 p.m. on the day that it is due.} Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Moreover, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
+either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. **Each paper must be turned in no later than 11:59 p.m. on the day that it is due.** Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Moreover, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
 
 **Due dates for all papers are listed below:**
 
-\renewcommand{\arraystretch}{1.15}
+\renewcommand{\arraystretch}{1.25}
 
 |**Paper**| **Focus**                                 | **Due Date**   |
 |---------|-------------------------------------------|----------------|
@@ -338,18 +336,24 @@ either one or two questions posed by the professor based on the course readings 
 |Paper #4|Theories of Race and Ethnicity; **OR**,     |Tuesday, Dec. 13| 
 |        |Feminist, Queer, and Intersectionality      |                |
 |        |Theories
+| | |
+|**[Optional]**|Up to **Two** Re-Written Lower-Scored |Tuesday, Dec. 13|
+|              |Papers Chosen From The First Three    |                |
+|              |Analytical Papers Written             |                |
 
 
 ### Guidelines for papers 
-Papers will have a word limit, approximately 1000 words (roughly 4 double-spaced pages), typed, 12-point font, 1-inch margins, Times New Roman (11-point Arial font is also appropriate). Proper grammar and APA citation of sources is expected. **No other format will be accepted.** Late papers will be deducted 20% of its overall grade each day that it is overdue. 
+Papers have a word limit, approximately 1000 words (roughly 4 double-spaced pages); must be typed with 12-point font, 1-inch margins, and Times New Roman font (11-point Arial font is also appropriate). Proper grammar and APA citation of sources is expected. **No other format will be accepted.** 
 
 ### Tips and tricks for good writing
-
 Use a citation management software to organize your papers and create bibiliographies. My personal preference is [Zotero](https://www.zotero.org/) because it is free, open source, and works across multiple operating systems. For information about other citation management software that is available to CSU Chico students, visit the Meriam Library ["Sample Papers and Citation Tools" page](https://libguides.csuchico.edu/c.php?g=432300&p=2948649). 
 
 Write and then revise. Ask for feedback from peers or wait until you have some distance from your writing and then revise.
 
 Prompt yourself with questions that have short, concrete answers.
+
+## Extra-Credit (Film Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
+Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on BlackBoard by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Tuesday December 13 by 11:59 p.m.**
 
 ```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
 
@@ -359,17 +363,21 @@ Prompt yourself with questions that have short, concrete answers.
 
 ```
 
+```{r lectures_slides, child='general_components/lectures_slides.md'}
+
+```
+
 # Creating a Safe and Inclusive Learning Environment 
 
 ```{r mandatory_reporting, child='general_components/mandatory_reporting.md'}
 
 ```
 
-```{r Diversity Statements, child='general_components/diversity_statements.md'}
+```{r diversity statements, child='general_components/diversity_statements.md'}
 
 ```
 
-```{r Mental Health, child='general_components/mental_health.md'}
+```{r mental health, child='general_components/mental_health.md'}
 
 ```
 
@@ -426,7 +434,336 @@ kable(MeetingDays[,c("Date",
 
 ```
 
+## Tentative Reading and Assignments Schedule
+
+Readings we will cover are listed below. \textcolor{red}{\bf{Note that the professor reserves the right to change the readings and assignment due dates below based on new and developing information about what would best serve my students.}} Changes in the syllabus will be highlighted in \colorbox{Cyan}{\bf{cyan.}} In the event that a reading has not been made available in a way that you can access it on Black Board or Perusall, please email me immediately so the professor may repost the reading/assignment in time for you to complete it before the next class period. You will also be immediately notified when there the due date of an assignment has changed. 
+
+*These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
+
+# COURSE SCHEDULE
+```{r echo=FALSE}
+
+tue <- as.Date("2022-08-23")
+
+# fri <- as.Date("2016-01-08")
+advdate <- function(obj, adv) {
+ ttue <- obj + 7 * (adv-1)
+ tfri <- obj + 2 + 7*(adv-1)
+ ttue <- format(ttue, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("WEEK ", zadv, sep='',", ", ttue," - ",tfri)
+ return(tmp)
+}
+
+```
+
+\bigbreak
+
+## `r advdate(tue, 1)`: INTRODUCTION AND COURSE OVERVIEW
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 2)`: STRUCTURAL FUNCTIONALIST THEORIES, I
+    
+**Required Readings:**
+
++
+    ```{r week 2a, echo=FALSE, results='asis'}
+
+    bib["dillon_introduction_2020"]
+    
+    ```
+    \textcolor{BrickRed}{\bf{[Read: Chapter 4]}}
+
++
+    ```{r week 2b, echo=FALSE, results='asis'}
+
+    bib["parsons_school_2017"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+    
+**Assignments Due**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 3)`: STRUCTURAL FUNCTIONALIST THEORIES, II
+
+**Required Readings**
+
++
+    ```{r week 3a, echo=FALSE, results='asis'}
+
+    bib["merton_social_1938"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
++
+    ```{r week 3b, echo=FALSE, results='asis'}
+    
+    bib["davis_principles_1945"]
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
 
 
+**Assignments Due**
 
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 4)`: SYMBOLIC INTERACTIONISM & THE WORK OF ERVING GOFFMAN, I
+
+**Required Readings**
+
++
+    ```{r week 4a, echo=FALSE, results='asis'}
+
+    bib["dillon_introduction_2020"]
+    
+    ```
+    \textcolor{BrickRed}{\bf{[Read: Chapter 8]}}
+    
++
+    ```{r week 4b, echo=FALSE, results='asis'}
+
+    bib["rainwater_stigma_2018"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
+
+**Assignments Due**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 5)`: THE WORK OF ERVING GOFFMAN, II
+
+**Required Readings**
+
++
+    ```{r week 5, echo=FALSE, results='asis'}
+  
+    bib["goffman_presentation_1959"]
+
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting: Read: Introduction and Chapter 1 Only]}}
+    
+    
+**Assignments Due**
+
+- Weekly Perusall Participation
+- **Paper #1 due by Sunday 11:59 p.m.**
+- **Quiz #1 must be completed by Friday 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 6)`: POWER ELITE THEORIES
+
+**Required Readings**
+
++
+    ```{r week 6a, echo=FALSE, results='asis'}
+
+    bib["mills_power_1956"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
++
+    ```{r week 6b, echo=FALSE, results='asis'}
+
+    bib["molotoch_city_1976"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
+**Assignments Due**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 7)`: NEO-MARXISM AND CRITICAL THEORIES
+
+**Required Readings**
+
++
+    ```{r week 7a, echo=FALSE, results='asis'}
+
+    bib["gramsci_selections_1971"]
+    
+    ```
+    
+    \colorbox{Goldenrod}{\bf{[E-Posting: Read: 238-276 only]}}
+    
+    
++
+    ```{r week 7b, echo=FALSE, results='asis'}
+
+    bib["horkheimer_culture_2017"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting}}
+
+**Assignments Due**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 8)` POST-STRUCTURALISM & THE WORK OF MICHEL FOUCAULT, I
+
+**Required Readings**
+
++
+    ```{r week 8a, echo=FALSE, results='asis'}
+
+    bib["dillon_introduction_2020"]
+    
+    ```
+    \textcolor{BrickRed}{\bf{[Read: Chapter 11: 343-352 only]}}
+
++
+    ```{r week 8b, echo=FALSE, results='asis'}
+    
+    bib["foucault_subject_1982"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+    
+**Assignments Due**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 9)`: THE WORK OF MICHEL FOUCAULT, II
+
+**Required Readings**
+
++
+    ```{r week 9a, echo=FALSE, results='asis'}
+    
+    bib["foucault_panopticism_2022"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
++
+    ```{r week 9b, echo=FALSE, results='asis'}
+
+    bib["foucault_history_1978"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting: Read: 15-73 only]}}
+
+**Assignments Due**
+
+- Weekly Perusall Participation
+- **Paper #2 due by Sunday 11:59 p.m.**
+- **Quiz #2 must be completed by Friday 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 10)`: THEORIES OF SOCIAL/CULTURAL REPRODUCTION & INEQUALITY: THE WORK OF PIERRE BOURDIEU I
+
+**Required Readings**
+
++
+    ```{r week 10a, echo=FALSE, results='asis'}
+
+    bib["dillon_introduction_2020"]
+    
+    ```
+    \textcolor{BrickRed}{\bf{[Read: Chapter 13]}}
+    
++
+    ```{r week 10b, echo=FALSE, results='asis'}
+
+    bib["bourdieu_structures_1994"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
+\bigbreak
+\hrule
+
+**Assignments Due**
+
+- Weekly Perusall Participation
+
+## `r advdate(tue, 11)`: THE WORK OF PIERRE BOURDIEU, II
+
++
+    ```{r week 11a, echo=FALSE, results='asis'}
+    
+    bib["bourdieu_language_1991"]
+    
+    ```
+  
+\bigbreak
+\hrule
+
+## `r advdate(tue, 12)`: THEORIES OF RACE & ETHNICITY, I
+
++
+    ```{r}
+
+    ```
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 13)`: THEORIES OF RACE & ETHNICITY, II
+
++
+    ```{r}
+
+    ```
+  
+\bigbreak
+\hrule  
+
+## `r advdate(tue, 14)`: FALL BREAK - NO CLASSES - ENJOY YOUR BREAK!
+
+- **No required readings or assignments due this week**
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 15)`: FEMINIST THEORIES, I
+
++
+    ```{r}
+
+    ```
+
+\bigbreak
+\hrule
+
+## `r advdate(tue, 16)`: FEMINIST THEORIES, II
+
++
+    ```{r}
+
+    ```
+
+\bigbreak
+\hrule
 
