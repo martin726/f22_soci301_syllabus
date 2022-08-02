@@ -1,0 +1,308 @@
+---
+title: "SOCI 375: Global Problems"
+date: "Fall 2022"
+link-citations: yes
+output:
+  pdf_document:
+    keep_tex: yes
+    fig_caption: yes
+    number_sections: yes
+    latex_engine: pdflatex
+    extra_dependencies: xcolor
+    template: Syllabus_template.tex
+  html_document:
+    df_print: paged
+geometry: margin=1in
+instructor:
+- name: Dr. Martín Jacinto
+  email: mjacinto@csuchico.edu
+  prefered_contact: Blackboard Messaging
+  officehours: 10:00 a.m. - 12:00 p.m. Tue
+  office: TBD
+  correspondence_policy: Respond within 24-48 hours
+  instructor:
+    
+# teachingassistant:
+#  - name: Filler
+#    email: filler@fill.com
+#    officehours: W T
+#    office: OfficeNumber
+#    sections: '301'
+
+classroom: 'Online'
+classhours: 1:00 p.m. - 2:15 p.m.	MW
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes: \linespread{1.05}
+  -\usepackage{float}
+  -\usepackage{booktabs}
+  -\usepackage{fontawesome5}
+  -\usepackage{color}
+  -\usepackage{soul}
+---
+
+
+```{r setup, include=FALSE, ache=F, message=F, warning=F, results="hide"}
+
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(cache=TRUE)
+knitr::opts_chunk$set(fig.path='figs/')
+knitr::opts_chunk$set(cache.path='_cache/')
+knitr::opts_chunk$set(warning=F, message=F)
+
+library(timeDate)
+library(tibble)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(knitr)
+library(RefManageR)
+library(knitcitations)
+library(rcrossref)
+library(bibtex)
+library(kableExtra)
+library(fontawesome)
+library(bibtex)
+
+bibs <- read.bib("~/Documents/Github/syllabi/fall_2022/f22_syllabi/Syllabus/general_components/soci375_bib_main.bib")
+
+
+
+myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+
+#This code chunk sets up a table of meeting days for the course.
+#You can set days of the week for course meetings (i.e.,. Tuesday and Wednesday).
+#Semester start and end dates are selected and then university holidays like spring break are specified.
+
+#Days of the week that the course meets. Must be full day name in quotes.
+Days <- c("Monday", "Wednesday")
+
+#Semester start date for classes as YYYY/M/D.
+SemesterStart <- as.Date("2022/8/22")
+
+#Semester end date for classes as YYYY/M/D.
+SemesterEnd <- as.Date("2022/12/09")
+
+#Fall break start and stop date.
+FallBreak <-
+  seq.Date(
+    from = as.Date("2022/11/21"),
+    to = as.Date("2022/11/25"),
+    by = "day"
+  )
+
+#Spring break start and stop date.
+SpringBreak <-
+  seq.Date(
+    from = as.Date("2023/03/13"),
+    to = as.Date("2023/03/17"),
+    by = "day"
+  )
+
+#Creates a list of days within the semester.
+SemesterDays <-
+  seq.Date(from = SemesterStart, to = SemesterEnd, by = "day")
+
+#Add day before Thanksgiving.
+DayBeforeThnks<-as.Date(holiday(
+    year = getRmetricsOptions("currentYear"),
+    Holiday = c("USThanksgivingDay")))-1
+
+#Full list of holidays that there are no classes including breaks.
+Holidays <-
+  c(as.Date(holiday(
+    year = getRmetricsOptions("currentYear"),
+    Holiday = c("USLaborDay", "USVeteransDay","USThanksgivingDay", "USMLKingsBirthday")
+  )), SpringBreak, FallBreak, DayBeforeThnks)
+Holidays
+
+#Create a list of semester days excluding holidays.
+SemesterDays <- SemesterDays[!SemesterDays %in% Holidays]
+
+#Make dataframe with all semester days.
+ClassDays <- data.frame(index = 1:length(SemesterDays))
+
+#Insert dates.
+ClassDays$Date <- SemesterDays
+
+#Insert weekday designation.
+ClassDays$Weekday <- weekdays(ClassDays$Date)
+
+#Limit to the class meeting days.
+MeetingDays <- ClassDays[ClassDays$Weekday %in% Days, ]
+
+#Create numeric list of weeks.
+Week <- cut.Date(MeetingDays$Date, breaks = "week")
+levels(Week) <- 1:length(levels(Week))
+
+MeetingDays$Week <- Week
+MeetingDays$Class <- 1:nrow(MeetingDays)
+
+#Replace this with c("Lecture topic 1",...,"Lecture topic N") to fill in table.
+
+Lecture_Topic <- 1:nrow(MeetingDays)
+
+MeetingDays <- bind_cols(MeetingDays, Lecture = Lecture_Topic)
+
+#### Grade table ####
+Grades <- tribble( ~ Grade,
+                   ~ Range, ~Quality,
+                   "A",
+                   "93 - 100%", "Excellent Work",
+                   "A-",
+                   "90 - 92%", "Nearly Excellent Work",
+                   "B+",
+                   "87 - 89%", "Very Good Work", 
+                   "B",
+                   "83 - 86%", "Good Work",
+                   "B-",
+                   "80 - 82%", "Mostly Good Work",
+                   "C+",
+                   "77 - 79%", "Above Average Work",
+                   "C",
+                   "73 - 76%", "Average Work",
+                   "C-",
+                   "70 - 72%", "Mostly Average Work",
+                   "D+",
+                   "67 - 69%", "Below Average Work",
+                   "D",
+                   "60 - 66%", "Poor Work",
+                   "F",
+                   "< 60%", "Failing Work")
+
+####Assignment weight table####
+Weights <- tribble(~ Item,
+                    ~ Weight,
+                    "Attendance & Participation",
+                    "10 %",
+                    "Weekly Perusall Participation & Discussion",
+                    "10 %",
+                    "Quizzes", 
+                    "20 %",
+                    "Analytical Response Papers",
+                    "60 %",
+                    "TOTAL", 
+                    "100 %"
+                  )
+
+
+```
+
+
+```{r indigenous_land_statement, child='general_components/indigenous_land_statement.md'}
+
+
+```
+
+# Course Description
+
+*Why study social problems through a global perspective?* Over the past century, societies across the world have become increasingly interconnected and, as a result, many social problems have a global dimension to them. Through a global perspective, we can understand and comprehend how *globalization*-a process of increasing international economic, political and cultural connection-generates contradictory social outcomes (negative and positive) across the globe. For instance, alongside a global reduction in poverty and overall progress in life expectancy, the threat of climate change looms large and the growing concentration of wealth amongst a small yet powerful elite continues to come at the expense of working and lower-income class groups. Therefore, it is important to ask: *how is this possible?* 
+
+In this course, then, the main learning goal is to construct a more precise understanding of these multifaceted global *social* problems, one that can be the basis of a critical evaluation of the past century of global transformation. While there are various co-existing and valid perspectives on globalization, our perspective on globalization will be grounded on the tradition of critical political economy and economic development. Critical political economy—a tradition that includes Marxist theory, world- systems analysis, critical globalization studies, feminist political economy, among others— grounds globalization in the processes of capitalist expansion. While globalization is a complex and multi-dimensional phenomenon that includes cultural interconnectedness and geopolitical conflict, in this course we will examine the extent to which these processes and social problems relate to the global reach of capitalist production. This critical perspective is useful because much of our daily lives depends on how the larger, global capitalist economy functions and operates. 
+
+Beyond the core issue of globalization as the expansion of capitalism, we will look at different specific instances or aspects of globalization. Thus, the course is divided into one introduction and three parts. The first two weeks—entitled **Introduction: Theoretical and Historical Foundations**—will focus on clarifying the different meanings of globalization and on identifying some of the most salient socio-economic trends of the globalization era. **Part I**, entitled **Global Processes: Accumulation and Trade**, will unpack some of the core processes that characterize contemporary globalization, namely (1) the transformation of production processes from Fordist to neoliberal strategies and (2) the expansion of free trade (in the sense of free trade ideologies and actual trade in goods and services). After that, we will move on to **Part II**, which centers on **Dimensions of Globalization**. This second part of the course will examine some important aspects of globalization—issues of labor, gender, environment, and health will be discussed during the weeks that composed the second part of the course. Lastly, **Part III** (Concrete Analysis of Concrete Situations) will be about concrete regional examples and resistance. First, we will evaluate the place of Latin America and China in the globalization era. While we will be looking at resistance all throughout the semester, in Part III we will also examine some concrete issues and dilemmas surrounding resistance to globalization. This look at resistance will function as a conclusion to the course. By then of the semester we should have some general picture of capitalist globalization, its origins, its contradictions and the prospects for the future.
+
+## Course Learning Objectives (CLO):
+
+  1. Identify and describe the socio-economic and historical links that connect individual, local and 
+     national issues to global socio-economic transformations.
+  2. Explain core concepts, main arguments and relevant empirical data/examples used to discuss
+     globalization in lectures and assigned readings.
+  3. Recognize the multiple dimensions and complex dynamics that shape globalization.
+  4. Analyze in writing what a selection of social scientists/historians argue regarding globalization.
+     Simultaneously, you will learn to add some critical insight vis-à-vis these arguments.
+  5. Apply the theories learned to historical and/or contemporary events.
+  6. **The main goal** is to evaluate—in a nuanced and critical manner—contemporary
+     globalization and the arguments made in favor or against it.
+
+## Sociology Program Student Learning Objectives:
+
+- Demonstrate critical thinking through verbal and written communication.
+- Demonstrate the ability to design and evaluate quantitative and qualitative research.
+- Apply, critically interpret and synthesize sociological theory.
+- Display an understanding of and appreciation for cultural diversity.
+- Illustrate an understanding of the processes and implications of globalization.
+- Exhibit an understanding of the structural and interpersonal basis of social inequality.
+- Recognize the relationship between personal agency, social responsibility, and social change (sociological imagination).
+- Demonstrate proficiency in the use of technology.
+
+## Course Status
+
+We explore historic, economic, political, ecological and social changes that have created social problems worldwide. We examine a broad range of global problems and current global developments through a macro sociological lens. 3 hours lecture.
+
+## Important Dates
+- Sept. 2nd - Last day to drop without instructor's approval\
+- Oct. 24th - Last day to drop and receive financial credit for refund\
+- Nov. 10th - Last day to drop or withdraw\
+- See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
+
+# Required Readings
+-  There is no required textbook for this course. Primary readings will be available electronically on the Blackboard course page and on Perusall. These readings will only be available to students enrolled in the course, and are to be used only for educational purposes. 
+
+
+
+
+```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
+
+```
+
+```{r contacting_professor, child='general_components/contacting_professor.md'}
+
+```
+
+```{r lectures_slides, child='general_components/lectures_slides.md'}
+
+```
+
+# Creating a Safe and Inclusive Learning Environment 
+
+```{r mandatory_reporting, child='general_components/mandatory_reporting.md'}
+
+```
+
+```{r diversity statements, child='general_components/diversity_statements.md'}
+
+```
+
+```{r mental health, child='general_components/mental_health.md'}
+
+```
+
+```{r other_course_policies, child='general_components/other_course_policies.md'}
+
+```
+
+# University Policies and Campus Resources
+
+```{r Academic Integrity, child='general_components/academic_integrity.md'}
+
+```
+
+```{r Student Services, child='general_components/student_services.md'}
+
+```
+
+```{r Disability Services, child='general_components/disability_services.md'}
+
+```
+
+```{r Food Insecurity, child='general_components/food_insecurity.md'}
+
+```
+
+# Final thoughts
+
+This document is a roadmap for our semester. We will learn about global problems and globalization as a social process. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
+
+__If this document is updated, a copy will be supplied to you via Black Board and changes will be announced in class.__
+
+\newpage 
+
+\renewcommand{\arraystretch}{1.25}
+
+# Course and Reading Schedule 
+
+The following is a tentative schedule for the Fall 2022 semester. It lists readings and due dates, and **may be subject to change.** Any changes will be announced in class and will be shown in Black Board immediately. Use this information to schedule accordingly. If you miss class, it is your responsibility to find out if any scheduling changes were made in class.
+
+Table \ref{tab:course_schedule} displays the course schedule for the Fall 2022 semester. It lists the days and weeks we will meet for lecture. **We will not meet during Fall Break (Nov. 21-25).**
+

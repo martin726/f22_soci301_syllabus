@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  29 JUL 2022 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  1 AUG 2022 16:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Syllabus.tex
-(./Syllabus.tex
+**soci301_syllabus.tex
+(./soci301_syllabus.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15> (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -332,8 +332,8 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box102
-) (./Syllabus.aux)
-\openout1 = `Syllabus.aux'.
+) (./soci301_syllabus.aux)
+\openout1 = `soci301_syllabus.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
 LaTeX Font Info:    ... okay on input line 101.
@@ -392,9 +392,9 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 101.
 Package hyperref Info: Link coloring ON on input line 101.
-(./Syllabus.out) (./Syllabus.out)
+(./soci301_syllabus.out) (./soci301_syllabus.out)
 \@outlinefile=\write3
-\openout3 = `Syllabus.out'.
+\openout3 = `soci301_syllabus.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 104.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -478,20 +478,20 @@ Overfull \hbox (2.4486pt too wide) in paragraph at lines 1664--1671
 
 
 AED: lastpage setting LastPage
-[20] (./Syllabus.aux)
-Package rerunfilecheck Info: File `Syllabus.out' has not changed.
+[20] (./soci301_syllabus.aux)
+Package rerunfilecheck Info: File `soci301_syllabus.out' has not changed.
 (rerunfilecheck)             Checksum: E064FD123837DFE74623476DC2EE01C0;17403.
  ) 
 Here is how much of TeX's memory you used:
  10347 strings out of 479983
- 167169 string characters out of 5886802
- 485456 words of memory out of 5000000
+ 167305 string characters out of 5886802
+ 485480 words of memory out of 5000000
  28235 multiletter control sequences out of 15000+600000
  503139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,67p,1197b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,12n,67p,1205b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Syllabus.pdf (20 pages, 150226 bytes).
+Output written on soci301_syllabus.pdf (20 pages, 150226 bytes).
 PDF statistics:
  557 PDF objects out of 1000 (max. 8388607)
  521 compressed objects within 6 object streams

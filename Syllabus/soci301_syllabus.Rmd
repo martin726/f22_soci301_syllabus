@@ -30,7 +30,7 @@ instructor:
 #    sections: '301'
 
 classroom: 'Butte Hall 308'
-classhours: 2:00 pm - 3:15 pm	TuTh
+classhours: 2:00 p.m. - 3:15 p.m.	TuTh
 fontfamily: mathpazo
 fontsize: 11pt
 header-includes: \linespread{1.05}
@@ -64,9 +64,9 @@ library(kableExtra)
 library(fontawesome)
 library(bibtex)
 
-bib <- read.bib("~/Documents/Github/syllabi/fall_2022/soci_301/f22_soci301_syllabus/Syllabus/general_components/soci301_bib_main.bib")
+bib <- read.bib("~/Documents/Github/syllabi/fall_2022/f22_syllabi/Syllabus/general_components/soci301_bib_main.bib")
 
- myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
+myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 
 #This code chunk sets up a table of meeting days for the course.
 #You can set days of the week for course meetings (i.e.,. Tuesday and Wednesday).
@@ -217,7 +217,7 @@ This course requires you to read a lot of social theory, which will be abstract 
 - Display knowledge of the impact of social institutions on everyday lives.
 
 ## Course Status
-This course is a requirement for the sociology major.It has a prerequisite of SOCI 300, Classical Social Theory, though this prerequisite may be waived with permission of the instructor. *Note that if you take SOCI 301 prior to or concurrent with SOCI 300, you will not be able to repeat SOCI 300 for forgiveness.*
+This course is a requirement for the sociology major. It has a prerequisite of SOCI 300, Classical Social Theory, though this prerequisite may be waived with permission of the instructor. *Note that if you take SOCI 301 prior to or concurrent with SOCI 300, you will not be able to repeat SOCI 300 for forgiveness.*
 
 ## Important Dates
 - Sept. 2nd - Last day to drop without instructor's approval\
@@ -353,7 +353,7 @@ Write and then revise. Ask for feedback from peers or wait until you have some d
 Prompt yourself with questions that have short, concrete answers.
 
 ## Extra-Credit (Film Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
-Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on BlackBoard by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Tuesday December 13 by 11:59 p.m.**
+Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on BlackBoard by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
 
 ```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
 
@@ -808,21 +808,72 @@ advdate <- function(obj, adv) {
 
 ## `r advdate(tue, 15)`: Feminist Theories, I
 
-+
-    ```{r}
 
+**Reading Required:**
+
++
+    ```{r week 15a, echo=FALSE, results='asis'}
+
+    bib["tong_feminist_2009"]
+    
     ```
+    \colorbox{Goldenrod}{\bf{[E-Posting: Read: Chapters 1, 2, and 3]}}
+    
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
 
 \bigbreak
 \hrule
 
 ## `r advdate(tue, 16)`: Feminist Theories II
 
+**Required Readings:**
+
 +
-    ```{r}
+    ```{r week 16a, echo=FALSE, results='asis'}
+
+    bib["tong_feminist_2009"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting: Read: Chapter 8 only]}}
+
++
+    ```{r week 16b, echo=FALSE, results='asis'}
+    
+    bib["butler_performative_1988"]
 
     ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
++
+    ```{r week 16c, echo=FALSE, results='asis'}
+
+    bib["collins_intersectionalitys_2015"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{[E-Posting]}}
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **All extra-credit film review/analyses are due on Friday December 9 by 11:59 p.m.**
 
 \bigbreak
 \hrule
+
+## Final Examination
+
+\textcolor{ForestGreen}{\bf{There is no formal final exam for this course.}} Instead, you are required to do the following:
+
+- Complete Quiz #4 (covering the readings and lectures on theories of race
+and ethnicity, and feminist, queer, and intersectionality theories) by **Friday December 9 11:59 p.m.**
+
+AND
+
+- Turn in Analytical Paper #4 - focusing on either a) theories of race and ethnicity; **OR** b) feminist, queer, intersectionality theories. Paper must be turned in by **Tuesday December 13 11:59 p.m. in Blackboard.**
+
+- \textcolor{BrickRed}{\bf{Optional:}} Turn in up to **TWO** re-written analytical papers. You may resubmit for a higher grade up to two (2) of your lowest-scored papers. **These must be turned in by Tuesday December 13 11:59 p.m. in Blackboard.**
+
 

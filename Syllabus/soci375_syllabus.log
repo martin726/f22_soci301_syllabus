@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  29 JUL 2022 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  1 AUG 2022 20:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Syllabus.tex
-(./Syllabus.tex
+**soci375_syllabus.tex
+(./soci375_syllabus.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15> (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -332,27 +332,27 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count293
 \l__pdf_internal_box=\box102
-) (./Syllabus.aux)
-\openout1 = `Syllabus.aux'.
+) (./soci375_syllabus.aux)
+\openout1 = `soci375_syllabus.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -390,29 +390,29 @@ LaTeX Font Info:    ... okay on input line 101.
 \big@size=\dimen179
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 101.
-Package hyperref Info: Link coloring ON on input line 101.
-(./Syllabus.out) (./Syllabus.out)
+(lastpage)             ! on input line 100.
+Package hyperref Info: Link coloring ON on input line 100.
+(./soci375_syllabus.out) (./soci375_syllabus.out)
 \@outlinefile=\write3
-\openout3 = `Syllabus.out'.
+\openout3 = `soci375_syllabus.out'.
 
-LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 104.
+LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 103.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
-LaTeX Font Info:    Trying to load font information for OML+zplm on input line 104.
+LaTeX Font Info:    Trying to load font information for OML+zplm on input line 103.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 104.
+LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 103.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 104.
+LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 103.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 104.
+LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 103.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
@@ -420,81 +420,60 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 121--127
 
  []
 
 [1
 
 {/Users/macbookpro/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 190.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 236.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 274--276
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
 
  []
 
+[3] [4] [5] [6] [7] [8] [9]
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
-
- []
-
-[2] [3]
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 367.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (24.1086pt too wide) in paragraph at lines 1539--1545
-\T1/ppl/m/n/10.95 0360-0572, 1545-2115, doi: 10.1146/an-nurev.soc.26.1.169 (URL: [][]$https : / / doi . org / 10 . 1146 / annurev .
- []
-
-
-Overfull \hbox (5.7561pt too wide) in paragraph at lines 1566--1575
-\T1/ppl/m/n/10.95 soc . 30 . 012703 . 110519$[][]), <URL: [][]$https : / / www . annualreviews . org / doi / 10 . 1146 / annurev . soc . 30 .
- []
-
-[19]
-Overfull \hbox (39.0321pt too wide) in paragraph at lines 1657--1664
-[][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 2307 / 3207893$[][]), <URL: [][]$https : / / www . jstor . org / stable / 3207893 ? origin = crossref$[][]>.
- []
-
-
-Overfull \hbox (2.4486pt too wide) in paragraph at lines 1664--1671
-[][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 1146 / annurev-[]soc-[]073014-[]112142$[][]), <URL: [][]$https : / / www . annualreviews .
- []
+LaTeX Warning: Reference `tab:course_schedule' on page 10 undefined on input line 743.
 
 
 AED: lastpage setting LastPage
-[20] (./Syllabus.aux)
-Package rerunfilecheck Info: File `Syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: E064FD123837DFE74623476DC2EE01C0;17403.
+[10] (./soci375_syllabus.aux)
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `soci375_syllabus.out' has not changed.
+(rerunfilecheck)             Checksum: 6CD77BF7212E0B952BED9F9513D5E5E2;6440.
  ) 
 Here is how much of TeX's memory you used:
- 10347 strings out of 479983
- 167169 string characters out of 5886802
- 485456 words of memory out of 5000000
- 28235 multiletter control sequences out of 15000+600000
- 503139 words of font info for 94 fonts, out of 8000000 for 9000
+ 10173 strings out of 479983
+ 162955 string characters out of 5886802
+ 480539 words of memory out of 5000000
+ 28146 multiletter control sequences out of 15000+600000
+ 497910 words of font info for 82 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,67p,1197b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,12n,67p,1205b,490s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+pdfTeX warning (dest): name{writing_assignments} has been referenced but does not exist, replaced by a fixed one
+
 {/Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Syllabus.pdf (20 pages, 150226 bytes).
+Output written on soci375_syllabus.pdf (10 pages, 104665 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
- 521 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 247 compressed objects within 3 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 233 words of extra memory for PDF output out of 10000 (max. 10000000)
 
