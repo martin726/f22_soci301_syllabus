@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  1 AUG 2022 16:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  2 AUG 2022 12:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -427,28 +427,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--128
 [1
 
 {/Users/macbookpro/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 190.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 193.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 243--245
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--247
+Underfull \hbox (badness 10000) in paragraph at lines 248--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 250--252
 
  []
 
 [2] [3]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 367.
+(hyperref)                than one, level fixed on input line 369.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -457,22 +457,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (24.1086pt too wide) in paragraph at lines 1539--1545
+Overfull \hbox (24.1086pt too wide) in paragraph at lines 1543--1549
 \T1/ppl/m/n/10.95 0360-0572, 1545-2115, doi: 10.1146/an-nurev.soc.26.1.169 (URL: [][]$https : / / doi . org / 10 . 1146 / annurev .
  []
 
 
-Overfull \hbox (5.7561pt too wide) in paragraph at lines 1566--1575
+Overfull \hbox (5.7561pt too wide) in paragraph at lines 1570--1579
 \T1/ppl/m/n/10.95 soc . 30 . 012703 . 110519$[][]), <URL: [][]$https : / / www . annualreviews . org / doi / 10 . 1146 / annurev . soc . 30 .
  []
 
 [19]
-Overfull \hbox (39.0321pt too wide) in paragraph at lines 1657--1664
+Overfull \hbox (39.0321pt too wide) in paragraph at lines 1661--1668
 [][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 2307 / 3207893$[][]), <URL: [][]$https : / / www . jstor . org / stable / 3207893 ? origin = crossref$[][]>.
  []
 
 
-Overfull \hbox (2.4486pt too wide) in paragraph at lines 1664--1671
+Overfull \hbox (2.4486pt too wide) in paragraph at lines 1668--1675
 [][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 1146 / annurev-[]soc-[]073014-[]112142$[][]), <URL: [][]$https : / / www . annualreviews .
  []
 
@@ -480,21 +480,21 @@ Overfull \hbox (2.4486pt too wide) in paragraph at lines 1664--1671
 AED: lastpage setting LastPage
 [20] (./soci301_syllabus.aux)
 Package rerunfilecheck Info: File `soci301_syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: E064FD123837DFE74623476DC2EE01C0;17403.
+(rerunfilecheck)             Checksum: 3529AACFAD9E8D681AE6735D6ADEDE84;17580.
  ) 
 Here is how much of TeX's memory you used:
- 10347 strings out of 479983
- 167305 string characters out of 5886802
- 485480 words of memory out of 5000000
- 28235 multiletter control sequences out of 15000+600000
+ 10351 strings out of 479983
+ 167381 string characters out of 5886802
+ 485529 words of memory out of 5000000
+ 28237 multiletter control sequences out of 15000+600000
  503139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,67p,1205b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,12n,67p,1205b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on soci301_syllabus.pdf (20 pages, 150226 bytes).
+Output written on soci301_syllabus.pdf (20 pages, 150535 bytes).
 PDF statistics:
- 557 PDF objects out of 1000 (max. 8388607)
- 521 compressed objects within 6 object streams
- 165 named destinations out of 1000 (max. 500000)
- 521 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 562 PDF objects out of 1000 (max. 8388607)
+ 526 compressed objects within 6 object streams
+ 167 named destinations out of 1000 (max. 500000)
+ 529 words of extra memory for PDF output out of 10000 (max. 10000000)
 

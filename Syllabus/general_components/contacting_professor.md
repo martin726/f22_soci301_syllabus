@@ -4,7 +4,7 @@ Remember, your professor is here to help you gain a rich understanding of the ma
 
 
 ## Communication policy
-When contacting your about the course, please send message through "Message Your Professor" in BlackBoard. I check messages three times per day, Monday thru Friday, between 9:00 AM and 6:00 PM. Please allow up to 24-48 hours for a response during the week. If you contact on the weekend, expect a reply the following Monday. 
+When contacting your about the course, please send message through "Message Your Professor" in Canvas. I check messages three times per day, Monday thru Friday, between 9:00 AM and 6:00 PM. Please allow up to 24-48 hours for a response during the week. If you contact on the weekend, expect a reply the following Monday. 
 
 - Requesting help: If you miss a class meeting, you should…
 

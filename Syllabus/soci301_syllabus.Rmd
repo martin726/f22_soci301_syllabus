@@ -16,7 +16,7 @@ geometry: margin=1in
 instructor:
 - name: Dr. Martín Jacinto
   email: mjacinto@csuchico.edu
-  prefered_contact: Blackboard Messaging
+  prefered_contact: Canvas Messaging
   officehours: 10:00 a.m. - 12:00 p.m. Wed
   office: TBD
   correspondence_policy: Respond within 24-48 hours
@@ -240,16 +240,16 @@ This course is a requirement for the sociology major. It has a prerequisite of S
 
 ## Additional Required Readings
 
--  Primary texts and other required readings will be available electronically on the Blackboard course page and on Perusall. An \colorbox{Goldenrod}{\bf{“E-Posting”}} notation is made next to each of these readings in the syllabus. These readings will only be available to students enrolled in the course, and are to be used only for educational purposes. 
+-  Primary texts and other required readings will be available electronically on the Canvas course page and on Perusall. An \colorbox{Goldenrod}{\bf{“E-Posting”}} notation is made next to each of these readings in the syllabus. These readings will only be available to students enrolled in the course, and are to be used only for educational purposes. 
 
 # Structure and Character of a ChicoFlex Course 
 
--  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Blackboard Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” **All times will use Pacific Standard Time (PST).** This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Blackboard Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Blackboard Learn (this will ensure instructor access to emails).*
+-  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Canvas Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” **All times will use Pacific Standard Time (PST).** This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Canvas Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Canvas Learn (this will ensure instructor access to emails).*
 
 -  Also, given the fact that we’re still in a global pandemic, the course will proceed fluidly. I want this class to work for all of us and will remain sensitive to the ongoing needs of students while adhering to public health standards and guidelines. 
 
 ## Technological Problems: 
-- Occasional problems with technology are a common part of the modern university experience. If you have any technical difficulties, you [**should call IT Support Services (ITSS) at 530-898-6000**](https://www.csuchico.edu/itss/). After you call them, if they are not able to resolve the issue, please email me with a description of the problem, the name of the person you spoke to in that office, what they and/or you are doing to resolve the problem, and the expected timeline for its resolution. If you are having trouble with Blackboard Learn during a quiz or other assignment, take a screen shot or photo of the computer screen and the error message you receive and email it to me AND contact ITSS at 530-898-6000. If you experience technical difficulties while submitting an assignment, call ITSS at 1-800-898-6000 and send a copy of the assignment to me via Blackboard Learn. If any of these things happen when ITSS is closed, please follow up with them immediately the next business day. You MUST contact ITSS to resolve the issue if you are asking for any kind of leniency or extension. 
+- Occasional problems with technology are a common part of the modern university experience. If you have any technical difficulties, you [**should call IT Support Services (ITSS) at 530-898-6000**](https://www.csuchico.edu/itss/). After you call them, if they are not able to resolve the issue, please email me with a description of the problem, the name of the person you spoke to in that office, what they and/or you are doing to resolve the problem, and the expected timeline for its resolution. If you are having trouble with Canvas Learn during a quiz or other assignment, take a screen shot or photo of the computer screen and the error message you receive and email it to me AND contact ITSS at 530-898-6000. If you experience technical difficulties while submitting an assignment, call ITSS at 1-800-898-6000 and send a copy of the assignment to me via Canvas Learn. If any of these things happen when ITSS is closed, please follow up with them immediately the next business day. You MUST contact ITSS to resolve the issue if you are asking for any kind of leniency or extension. 
 
 ```{r covid-19 policy, child='general_components/COVID_policy.md'}
 
@@ -305,11 +305,11 @@ In addition to completing all of the assigned reading before each designated day
 
 ```
 
-## Quizzes (20% of Final Grade; 5% each){#quizzes}
+## Quizzes (20% of Final Grade; 4% each){#quizzes}
 
-Four quizzes are required in this class. The quizzes will cover theories, ideas, and concepts from the course readings and lectures. **All four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m. on Friday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
+Five (5) quizzes are required in this class. The first quiz will be a syllabus quiz and will cover course policies and requirements. The syllabus quiz will be posted on Canvas by the end of the first class and must be completed by **11:59 p.m. on Friday September 2nd**. The other four quizzes will cover theories, ideas, and concepts from the course readings and lectures. **These four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m. on Friday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
 
-**Important Note: Please keep in mind that your lowest quiz score will not be counted when computing final grades. Instead, your highest quiz score will be counted twice in replacement of your lowest quiz score.  All quizzes will be posted on BlackBoard and you will be provided advanced notice.**
+**Important Note: Please keep in mind that your lowest quiz score will not be counted when computing final grades. Instead, your highest quiz score will be counted twice in replacement of your lowest quiz score.  All quizzes will be posted on Canvas and you will be provided advanced notice.**
 
 ## Four (4) Analytical Response Papers (60% of Final Grade; 15% each) {#writing_assignments}
 
@@ -353,7 +353,7 @@ Write and then revise. Ask for feedback from peers or wait until you have some d
 Prompt yourself with questions that have short, concrete answers.
 
 ## Extra-Credit (Film Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
-Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on BlackBoard by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
+Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on Canvas by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
 
 ```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
 
@@ -381,7 +381,7 @@ Students will have the opportunity to earn extra credit in this course. If you w
 
 ```
 
-```{r other_course_policies, child='general_components/other_course_policies.md'}
+```{r other_course_policies, child='general_components/301/other_course_policies.md'}
 
 ```
 
@@ -407,7 +407,7 @@ Students will have the opportunity to earn extra credit in this course. If you w
 
 This document is a roadmap for our semester. We learn about social theory together and its applicability towards understanding our environment. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
 
-__If this document is updated, a copy will be supplied to you via Black Board and changes will be announced in class.__
+__If this document is updated, a copy will be supplied to you via Canvas and changes will be announced in class.__
 
 \newpage 
 
@@ -415,7 +415,7 @@ __If this document is updated, a copy will be supplied to you via Black Board an
 
 # Course and Reading Schedule 
 
-The following is a tentative schedule for the Fall 2022 semester. It lists readings and due dates, and **may be subject to change.** Any changes will be announced in class and will be shown in Black Board immediately. Use this information to schedule accordingly. If you miss class, it is your responsibility to find out if any scheduling changes were made in class.
+The following is a tentative schedule for the Fall 2022 semester. It lists readings and due dates, and **may be subject to change.** Any changes will be announced in class and will be shown in Canvas immediately. Use this information to schedule accordingly. If you miss class, it is your responsibility to find out if any scheduling changes were made in class.
 
 Table \ref{tab:course_schedule} displays the course schedule for the Fall 2022 semester. It lists the days and weeks we will meet for lecture. **We will not meet during Fall Break (Nov. 21-25).**
 
@@ -436,7 +436,7 @@ kable(MeetingDays[,c("Date",
 
 ## Tentative Reading and Assignments Schedule
 
-Readings we will cover are listed below. \textcolor{red}{\bf{Note that the professor reserves the right to change the readings and assignment due dates below based on new and developing information about what would best serve my students.}} Changes in the syllabus will be highlighted in \colorbox{Cyan}{\bf{cyan.}} In the event that a reading has not been made available in a way that you can access it on Black Board or Perusall, please email me immediately so the professor may repost the reading/assignment in time for you to complete it before the next class period. You will also be immediately notified when there the due date of an assignment has changed. 
+Readings we will cover are listed below. \textcolor{red}{\bf{Note that the professor reserves the right to change the readings and assignment due dates below based on new and developing information about what would best serve my students.}} Changes in the syllabus will be highlighted in \colorbox{Cyan}{\bf{cyan.}} In the event that a reading has not been made available in a way that you can access it on Canvas or Perusall, please email me immediately so the professor may repost the reading/assignment in time for you to complete it before the next class period. You will also be immediately notified when there the due date of an assignment has changed. 
 
 *These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
 
@@ -872,8 +872,8 @@ and ethnicity, and feminist, queer, and intersectionality theories) by **Friday 
 
 AND
 
-- Turn in Analytical Paper #4 - focusing on either a) theories of race and ethnicity; **OR** b) feminist, queer, intersectionality theories. Paper must be turned in by **Tuesday December 13 11:59 p.m. in Blackboard.**
+- Turn in Analytical Paper #4 - focusing on either a) theories of race and ethnicity; **OR** b) feminist, queer, intersectionality theories. Paper must be turned in by **Tuesday December 13 11:59 p.m. in Canvas.**
 
-- \textcolor{BrickRed}{\bf{Optional:}} Turn in up to **TWO** re-written analytical papers. You may resubmit for a higher grade up to two (2) of your lowest-scored papers. **These must be turned in by Tuesday December 13 11:59 p.m. in Blackboard.**
+- \textcolor{BrickRed}{\bf{Optional:}} Turn in up to **TWO** re-written analytical papers. You may resubmit for a higher grade up to two (2) of your lowest-scored papers. **These must be turned in by Tuesday December 13 11:59 p.m. in Canvas.**
 
-
+**\colorbox{Goldenrod}{Syllabus Last Updated on `r format(Sys.time(), '%d %B, %Y')`}**
