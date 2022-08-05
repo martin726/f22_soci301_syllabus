@@ -9,7 +9,7 @@ When contacting your about the course, please send message through "Message Your
 - Requesting help: If you miss a class meeting, you should…
 
     1. First, look on the course website for material you missed. 
-    2. Second, if you need help understanding the material, you should contact your classmate via Beach. Board (direct email or discussion board). 
+    2. Second, if you need help understanding the material, you should contact your classmate (either via direct email or Canvas discussion board). 
     3. Third, if you still find it difficult, find some time to chat with me during office hours
 
 - Requesting a 1-on-1, non-office-hour Zoom meeting:

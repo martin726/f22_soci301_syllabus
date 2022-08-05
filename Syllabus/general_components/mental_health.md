@@ -7,4 +7,4 @@ Being a university student is stressful and can negatively impact mental health.
 - Experiencing an emotional crisis due to a traumatic incident or a series of incidents.
 - Help in developing personal survival skills necessary to achieve personal goals.
 
-Absences for mental health reasons are excused but the professor should be notified immediately (within 48 - 72 hours of absence) to prevent any penalty on your final grade.
+\textcolor{ForestGreen}{\bf{Absences for mental health reasons are excused but the professor should be notified immediately (within 48 - 72 hours of absence) to prevent any penalty on your final grade.}}

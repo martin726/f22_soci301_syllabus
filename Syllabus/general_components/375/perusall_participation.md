@@ -4,12 +4,12 @@ output:
   html_document: default
 ---
 
-## Weekly Perusall Participation (15% of Final Grade)
+## Weekly Perusall Participation (10% of Final Grade){#perusall}
 For reading the primary texts (and not the textbook) we will use [Perusall](https://support.perusall.com/hc/en-us), a social annotation tool that allows students and their instructors to collaboratively markup .pdf documents. Instead of only reading a document and discussing it, Perusall brings discussion to text. 
 
 To start, register for a free Perusall account and enter the course code: [Insert Code Here]
 
-At the beginning of the semester, you will be assigned to groups in Perusall, each comprised of around 8-10 students. After week 2, you will be randomly placed into these groups and participate in asynchronous group reading and discussion, covering any major theme(s)s or issue(s) from the reading and lecture. You will each read and discuss within your group forum. This means that you must not only do the reading and annotate on your own, but you must ask and respond to one or more questions within your group that are related to that week’s readings assignment(s) and lecture. Thus, you must interact in your group forum with at least two (2) of your groupmate’s posts. Your contribution and annotations will be graded on a scale of 1 – 3, with higher scores indicating higher quality annotations and responses. **Your annotations and responses to two or more groupmate’s annotations and questions are due each Wednesday by 8:00 PM. Discussion posts and annotations will be given credit only if they are substantive and follow all instructions.** 
+At the beginning of the semester, you will be assigned to groups in Perusall, each comprised of around 8-10 students. After week 2, you will be randomly placed into these groups and participate in asynchronous group reading and discussion, covering any major theme(s)s or issue(s) from the reading and lecture. You will each read and discuss within your group forum. This means that you must not only do the reading and annotate on your own, but you must ask and respond to one or more questions within your group that are related to that week’s readings assignment(s) and lecture. Thus, you must interact in your group forum with at least two (2) of your groupmate’s posts. Your contribution and annotations will be graded on a scale of 1 – 3, with higher scores indicating higher quality annotations and responses. **Your annotations and responses to two or more groupmate’s annotations and questions are due each Thursday by 11:59 p.m. Discussion posts and annotations will be given credit only if they are substantive and follow all instructions.** 
 
 For reading assignments in Perusall, you will be evaluated based on the following four criteria: 
 

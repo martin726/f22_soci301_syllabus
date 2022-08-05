@@ -64,7 +64,7 @@ library(kableExtra)
 library(fontawesome)
 library(bibtex)
 
-bib <- read.bib("~/Documents/Github/syllabi/fall_2022/f22_syllabi/Syllabus/general_components/soci301_bib_main.bib")
+bib <- read.bib("~/Documents/Github/syllabi/fall_2022/f22_syllabi/Syllabus/general_components/301/soci301_bib_main.bib")
 
 myopts <- BibOptions(bib.style = "authoryear", style="latex", first.inits=FALSE, max.names = 20)
 
@@ -301,7 +301,7 @@ In addition to completing all of the assigned reading before each designated day
 
 **REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** 
 
-```{r perusall_participation, child='general_components/perusall_participation.md'}
+```{r perusall_participation, child='general_components/301/perusall_participation.md'}
 
 ```
 
@@ -314,7 +314,7 @@ Five (5) quizzes are required in this class. The first quiz will be a syllabus q
 ## Four (4) Analytical Response Papers (60% of Final Grade; 15% each) {#writing_assignments}
 
 Four papers will be assigned for the semester. The required response papers will answer
-either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. **Each paper must be turned in no later than 11:59 p.m. on the day that it is due.** Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Moreover, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
+either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. **Each paper must be turned in no later than 11:59 p.m. on the day that it is due.** Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Additionally, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
 
 **Due dates for all papers are listed below:**
 
@@ -438,7 +438,7 @@ kable(MeetingDays[,c("Date",
 
 Readings we will cover are listed below. \textcolor{red}{\bf{Note that the professor reserves the right to change the readings and assignment due dates below based on new and developing information about what would best serve my students.}} Changes in the syllabus will be highlighted in \colorbox{Cyan}{\bf{cyan.}} In the event that a reading has not been made available in a way that you can access it on Canvas or Perusall, please email me immediately so the professor may repost the reading/assignment in time for you to complete it before the next class period. You will also be immediately notified when there the due date of an assignment has changed. 
 
-*These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
+*These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes and writing assignments.
 
 # COURSE SCHEDULE
 ```{r echo=FALSE}
@@ -799,7 +799,7 @@ advdate <- function(obj, adv) {
 \bigbreak
 \hrule  
 
-## `r advdate(tue, 14)`: FALL BREAK - NO CLASSES - ENJOY YOUR BREAK!
+## `r advdate(tue, 14)`: FALL BREAK - NO CLASSES OR ASSIGNMENTS - ENJOY YOUR BREAK!
 
 - \textcolor{BurntOrange}{\bf{No required readings or assignments due this week.}}
 
@@ -876,4 +876,6 @@ AND
 
 - \textcolor{BrickRed}{\bf{Optional:}} Turn in up to **TWO** re-written analytical papers. You may resubmit for a higher grade up to two (2) of your lowest-scored papers. **These must be turned in by Tuesday December 13 11:59 p.m. in Canvas.**
 
-**\colorbox{Goldenrod}{Syllabus Last Updated on `r format(Sys.time(), '%d %B, %Y')`}**
+
+
+**\colorbox{LimeGreen}{Syllabus last updated on `r format(Sys.time(), '%B %d, %Y')`}**

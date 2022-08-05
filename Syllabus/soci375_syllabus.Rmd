@@ -44,6 +44,16 @@ header-includes: \linespread{1.05}
   -\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
 
+```{r directory, eval=FALSE, include=FALSE}
+
+rmarkdown::render("~/Documents/GitHub/syllabi/fall_2022/f22_syllabi/Syllabus/soci375_syllabus.Rmd", 
+                  output_file="soci375_syllabus.pdf", 
+                  output_dir="~/OneDrive - California State University Chico/Fall 2022 Term/SOCI_Global Problems/main docs")
+
+```
+
+
+
 ```{r setup_375, include=FALSE, ache=F, message=F, warning=F, results="hide"}
 
 knitr::opts_chunk$set(echo = TRUE)
@@ -191,7 +201,6 @@ Weights <- tribble(~ Item,
                     "100 %"
                   )
 
-
 ```
 
 
@@ -199,6 +208,10 @@ Weights <- tribble(~ Item,
 
 
 ```
+
+# Course Status
+
+We explore historic, economic, political, ecological and social changes that have created social problems worldwide. We examine a broad range of global problems and current global developments through a macro sociological lens. 3 hours lecture.
 
 # Course Description
 
@@ -213,7 +226,7 @@ Beyond the core issue of globalization as the expansion of capitalism, we will l
   1. Identify and describe the socio-economic and historical links that connect individual, local and 
      national issues to global socio-economic transformations.
   2. Explain core concepts, main arguments and relevant empirical data/examples used to discuss
-     globalization in lectures and assigned readings.
+     globalization and global problems in lectures and assigned readings.
   3. Recognize the multiple dimensions and complex dynamics that shape globalization.
   4. Analyze in writing what a selection of social scientists/historians argue regarding globalization.
      Simultaneously, you will learn to add some critical insight vis-à-vis these arguments.
@@ -233,10 +246,6 @@ Beyond the core issue of globalization as the expansion of capitalism, we will l
   (sociological imagination).
 - Demonstrate proficiency in the use of technology.
 
-## Course Status
-
-We explore historic, economic, political, ecological and social changes that have created social problems worldwide. We examine a broad range of global problems and current global developments through a macro sociological lens. 3 hours lecture.
-
 ## Important Dates
 - Sept. 2nd - Last day to drop without instructor's approval\
 - Oct. 24th - Last day to drop and receive financial credit for refund\
@@ -244,7 +253,7 @@ We explore historic, economic, political, ecological and social changes that hav
 - See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
 
 # Required Readings
--  There is no required textbook for this course. All primary readings will be available electronically on the Canvas course page and on Perusall. These readings will only be available to students enrolled in the course, and are to be used only for educational purposes. 
+-  There is no required textbook for this course. All primary readings will be available electronically on the Canvas course page and on Perusall (more details about [Perusall](#perusall) below). These readings will only be available to students enrolled in the course, and are to be used only for educational purposes. 
 
 
 ```{r attendance_policy, child='general_components/attendance_policy.md'}
@@ -273,7 +282,7 @@ Table \ref{tab:weight_table} displays how your final grade will be weighed accor
 
 \renewcommand{\arraystretch}{1.5}
 
-```{r weights_table_375, echo=FALSE, results='asis'}
+```{r weights_tabl_375, echo=FALSE, results='asis'}
 
 kable(Weights,
       align = c("l", "c"), format="latex", booktabs=T, 
@@ -289,12 +298,11 @@ kable(Weights,
 
 ## Two Exams (30 % of Final Grade; 15% each)
 
-The exam will be composed of various essay-type questions. The mid-term will cover the material discussed up to that point in the semester. The final exam will cover the rest of the semester. Detailed instructions for the exam will be provided via Canvas. Each exam can be comprised of multiple
-choice, true/false, definitions, short answer, and essay questions. You will be allowed 1 page worth of notes. 
+Each exam can be comprised of multiple choice, true/false, definitions, short answer, and essay questions. **You will be allowed 1 page worth of notes.** The mid-term will cover the material covered from week 1 to 7. The final exam will cover the rest of the semester. Detailed instructions for the exam will be provided via Canvas as each exam approaches. 
 
 ## Two (2) Critical Interpretation Essay Papers (20% of Final Grade; 10% each){#writing_assignments}
 
-The essays’ goal is to demonstrate analytical thinking and a nuanced understanding of the material discussed in class. You will write critical comments on the assigned readings combined with illustrations from contemporary or historical examples. You will use both theoretical notions and empirical evidence provided in the readings in order to support your argument. Detailed guidelines and prompt questions will be provided for the essay through Canvas. The first essay is due by **Sunday September 25** and the second by **Friday October 28**. Additionally, you have the opportunity to re-write your lowest-scored critical interpretation essay for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
+The essays’ goal is to demonstrate analytical thinking and a nuanced understanding of the material discussed in class. You will write critical comments on the assigned readings combined with illustrations from contemporary or historical examples. You will use both theoretical notions and empirical evidence provided in the readings in order to support your argument. Detailed guidelines and prompt questions will be provided for the essay through Canvas. The first essay is due by **Sunday September 25, by 11:59 p.m.**, and the second by **Friday October 28, by 11:59 p.m.**. Additionally, you have the opportunity to re-write your lowest-scored critical interpretation essay for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
 
 **Each paper must be turned in no later than 11:59 p.m. (Pacific Standard Time) on the day that it is due.**
  
@@ -309,13 +317,13 @@ Write and then revise. Ask for feedback from peers or wait until you have some d
 
 ## Five Quizzes (15% of Final Grade; 3% each){#quizzes}
 
-Five (5) quizzes are required in this class. The quizzes will cover theories, ideas, and concepts from the course readings and lectures. The syllabus quiz will be posted on Canvas by the end of the first class and must be completed by **11:59 p.m. on Friday September 2nd**. The other four quizzes will cover theories, ideas, and concepts from the course readings and lectures. **These four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m. on Friday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
+Five (5) quizzes are required in this class. The quizzes will cover theories, ideas, and concepts from the course readings and lectures. The syllabus quiz will be posted on Canvas by the end of the first class and must be completed by **11:59 p.m. on Friday September 2nd**. The other four quizzes will cover theories, ideas, and concepts from the course readings and lectures. **These four required reading quizzes will be posted electronically on Wednesdays at 2:30 p.m. and must be completed by 11:59 p.m. on Thursday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. You will be allotted between 45-60 minutes to complete a quiz. More details will be posted on Canvas. 
 
 **Important Note: Please keep in mind that your lowest quiz score will not be counted when computing final grades. Instead, your highest quiz score will be counted twice in replacement of your lowest quiz score.  All quizzes will be posted on Canvas and you will be provided advanced notice.**
 
 ## Paired Presentation (15 % of Final Grade)
 
-Students will work in pairs examining one dimension of globalization— inequality trends, labor processes, gender dynamics, environmental injustice, etc.— and prepare a live video presentation. The evaluation of the presentation will be based on the following criteria: rapport with audience; voice, projection, and audibility; clarity in the expression of ideas; organization; persuasive use of evidence; and ability to respond to questions and to accept valid criticisms. I will post specific guidelines for your oral presentations on the course’s Canvas site.
+Students will work in pairs examining one dimension of globalization— inequality trends, labor processes, gender dynamics, environmental injustice, etc.— and prepare a live video presentation. The evaluation of the presentation/video will be based on the following criteria: rapport with audience; voice, projection, and audibility; clarity in the expression of ideas; organization; persuasive use of evidence; and ability to respond to questions and to accept valid criticisms. I will post specific guidelines for your oral presentations on the course’s Canvas site. **The paired presentation/video is due on Friday December 9, by 11:59 p.m.**
 
 ```{r perusall_participation, child='general_components/375/perusall_participation.md'}
 
@@ -323,14 +331,14 @@ Students will work in pairs examining one dimension of globalization— inequali
 
 ## Attendance and Participation (10% of Final Grade)
 
-For this course, the participation grade will include various things. First, participation requires attendance to all Zoom lectures which will take place Mondays and Wednesdays 8:00 to 9:30 am. The participation grade will also include any in-class activities and group exercises that we may do during Zoom meetings or immediately after a meeting. That is, throughout the semester I will assign short activities—these will take place either during class or to be completed immediately after a lecture or as a discussion post—that will count toward your overall participation grade. Note that **Discussion Board Posts** will be a 33% your participation grade—we will have a least five of them during the semester.
+For this course, the participation grade will include various things. First, participation requires attendance to all Zoom lectures which will take place Mondays and Wednesdays 8:00 to 9:30 am. The participation grade will also include any in-class activities and group exercises that we may do during Zoom meetings or immediately after a meeting. That is, throughout the semester I will assign short activities—these will take place either during class or to be completed immediately after a lecture or as a discussion post—that will count toward your overall participation grade. Note that **Discussion Board Posts** will be a 33% your participation grade—we will have a number of them during the semester.
 
 In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
 
 **REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** 
 
 ## Extra-Credit (Film Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
-Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on Canvas by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
+Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a *critical* sociological review and analysis that connects to some of the main themes of the course. A list of suggested films/ documentaries will be posted on Canvas by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
 
 
 ```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
@@ -415,9 +423,11 @@ kable(MeetingDays[,c("Date",
 
 Readings we will cover are listed below. \textcolor{red}{\bf{Note that the professor reserves the right to change the readings and assignment due dates below based on new and developing information about what would best serve my students.}} Changes in the syllabus will be highlighted in \colorbox{Cyan}{\bf{cyan.}} In the event that a reading has not been made available in a way that you can access it on Canvas or Perusall, please email me immediately so the professor may repost the reading/assignment in time for you to complete it before the next class period. You will also be immediately notified when there the due date of an assignment has changed. 
 
-*These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the final project.
+*These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes, writing assignments, and the paired presentation.
 
-# COURSE SCHEDULE
+# COURSE SCHEDULE **\colorbox{YellowGreen}{(Syllabus last updated on `r format(Sys.time(), '%B %d, %Y')`) }**
+
+
 ```{r course_function_375, echo=FALSE}
 
 mon <- as.Date("2022-08-22")
@@ -437,7 +447,7 @@ advdate <- function(obj, adv) {
 
 \vspace{\baselineskip}
 
-## I. INTRODUCTION: THEORETICAL AND HISTORICAL FOUNDATIONS 
+ > ## INTRODUCTION: THEORETICAL AND HISTORICAL FOUNDATIONS
 
 \bigbreak
 
@@ -472,12 +482,18 @@ advdate <- function(obj, adv) {
     
     ```
 
-**Film:**
+**Film (required):**
 
 - [*The Realities of Trump's Trade War*](https://www.youtube.com/watch?v=9wjjQ55S4Nc) by Vice News (2019).
 
+**Assignments Due:**
+
+- Post a brief introduction of yourself on the "Welcome Board"
+- **Syllabus Quiz must be completed by Friday August 26, by 11:59 p.m.**
+
 \bigbreak
 \hrule
+\newpage
 
 ## `r advdate(mon, 2)`: A Deeper Look. Globalization and the Capitalist World-Economy
 
@@ -488,15 +504,505 @@ advdate <- function(obj, adv) {
 
 **Required Readings:**
 
++ 
+    ```{r week_2_a_375, echo=FALSE, results='asis'}
+
+    bibs["wallerstein_modern_2004"]
+    
+    ```
+
 +
-    ```{r week_2a_375, echo=FALSE, results='asis'}
+    ```{r week_2_b_375, echo=FALSE, results='asis'}
     
     bibs["robinson_beyond_2007"]
     
     ```
 
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Quiz #2 must be completed by Thursday September 1, by 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+>> ## PART I. GLOBAL PROCESSES: ACCUMULATION AND TRADE
+
+## WEEK 03, 09/07: Accumulation Regimes and Socio-Economic Transformations: From Fordism to Neoliberal Globalization, I 
+
+\colorbox{Melon}{\bf{No Class on Monday 09/05 (Labor Day)}}
+
+**Topics:**
+
+(1) Fordism, or, the So-Called Golden Age of Capitalism
+(2) Global Fordism, or, “When Work Disappeared”
+
+**Required Readings:**
+
++ 
+    ```{r week_3a_375, echo=FALSE, results='asis'}
+
+    bibs["jessop_fordism_1992"]
+    
+    ```
+
++
+    ```{r week_3b_375, echo=FALSE, results='asis'}
+
+    bibs["lipietz_towards_1984"]
+    
+    ```
+
+**Film (required):**
+
+- Watch this short film on ["Fordism" and "Taylorism"](https://www.youtube.com/watch?v=8PdmNbqtDdI)
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 4)`: Accumulation Regimes and Socio-Economic Transformation: From Fordism to Neoliberal Globalization, II
+
+**Topics:**
+
+(1) On the Ruins of Fordism: The Rise of Neoliberalism
+
+**Required Readings:**
+
++
+    ```{r week_4a_375, echo=FALSE, results='asis'}
+    
+    bibs["friedman_relation_1962"]
+    
+    ```
+
++
+    ```{r week_4b_375, echo=FALSE, results='asis'}
+
+    bibs["harvey_freedoms_2007"]
+    
+    ```
+
++ 
+    ```{r week_4c_375, echo=FALSE, results='asis'}
+
+    bibs["bonnefoy_documenting_2017"]
+    ```
+
+**Film (recommended):**
+
+- [The Shock Doctrine](https://www.youtube.com/watch?v=B3B5qt6gsxY), directed by Mat Whitecross and Michael Winterbottom (Sundance Selects, 2009).
+
+- [Free to Choose (PBS documentary by Milton Friedman)](https://www.freetochoosenetwork.org/programs/free_to_choose/index_90.php?id=the_power_of_the_market). Watch 1990 version of the first
+episode available by going to Free to Choose Network. (You can skip the intro by Arnold Schwarzenegger by going to minute 6:46.)
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Quiz #2 must be completed by Thursday October 15, by 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 5)`: Debating Free Trade, I: Comparative Advantage or Unequal Development?
+
+**Topics:**
+
+(1) Debating Free Trade in General
+
+**Required Readings:**
+
++
+    ```{r week_5a_375, echo=FALSE, results='asis'}
+
+    bibs["stern_increasing_2011"]
+    
+    ```
+
++
+    ```{r week_5b_375, echo=FALSE, results='asis'}
+
+    bibs["amin_specialization_1976"]
+    
+    ```
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Critical Interpretation Essay #1 due by Sunday 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 6)`: Debating Free Trade, II: What Should be Done with Pollution- Intensive Industries?
+
+**Topics:**
+
+- Debating Trade in Dirty Industries
+
+**Required Readings:**
+
++
+    ```{r week_6a_375, echo=FALSE, results='asis'}
+
+    bibs["summers_our_1991"]
+    
+    ```
+
++
+    ```{r week_6b_375, echo=FALSE, results='asis'}
+
+    bibs["johnson_potential_2007"]
+    
+    ```
+
++
+    ```{r week_6c_375, echo=FALSE, results='asis'}
+
+    bibs["baer_global_2012"]
+    
+    ```
 
 
+**Assignments Due:**
 
-**\colorbox{LimeGreen}{Syllabus last updated on `r format(Sys.time(), '%B %d, %Y')` }**
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 7)`: Debating Free Trade, III: Unearthing the Sources of Global Unequal Exchange
+
+**Topics:**
+
+(1) A Historical Perspective on Global Trade: Imperialism and Unequal Exchange
+(2) Midterm Review on *Wednesday October 5*
+
+**Reading Readings:**
+
++
+    ```{r week_7a_375, echo=FALSE, results='asis'}
+
+    bibs["clark_ecological_2009"]
+    
+    ```
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Midterm Exam must be completed by Thursday October 6, by 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+  >> ## PART II. DIMENSIONS OF GLOBALIZATION 
+
+## `r advdate(mon, 8)`: Global Labor Forces
+
+**Topics:**
+
+(1) Racialization of Global Labor Force
+(2) Global Labor Struggles
+
+**Required Readings:**
+
++
+    ```{r week_8a_375, echo=FALSE, results='asis'}
+
+    bibs["bonacich_racialization_2008"]
+    
+    ```
+  
++
+    ```{r week_8b_375, echo=FALSE, results='asis'}
+
+    bibs["silver_historical_2015"]
+    
+    ```
+    
+**Recommended Readings:**
++
+    ```{r week_8recA_375, echo=FALSE, results='asis'}
+
+    bibs["wallerstein_ideological_1988"]
+    ```
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- Choose partner and topic for *paired presentation* assignment by **the end of Wednesday's class** 
+
+## `r advdate(mon, 9)`: Gendered Global Accumulation
+
+**Topics:**
+
+(1) Patriarchy and Global Accumulation
+(2) Complex Gender Configurations in Globalization
+
+**Required Readings:**
+
++ 
+    ```{r week_9a_375, echo=FALSE, results='asis'}
+
+    bibs["mies_patriarchy_2007"]
+    
+    ```
+
++
+    ```{r week_9b_375, echo=FALSE, results='asis'}
+
+    bibs["chen_chapter_2005"]
+    
+    ```
+
++
+    ```{r week_9c_375, echo=FALSE, results='asis'}
+
+    bibs["george_dirty_2000"]
+    
+    ```
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Quiz #3 must be completed by Thursday October 20, by 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 10)`: Global Environmental (In)justice
+
+**Topics:**
+
+(1) Environmental Racism
+(2) Climate Change and Environmental Injustice
+
+**Required Readings:**
+
++
+    ```{r week_10a_375, echo=FALSE, results='asis'}
+
+    bibs["bullard_environmental_1994"]
+    
+    ```
+
++
+    ```{r week_10b_375, echo=FALSE, results='asis'}
+
+    bibs["timmons_roberts_fueling_2007"]
+    
+    ```
+
+**Films (required):**
+
+- *TeleSUR's* ["Empire Files: The Sacrifice Zones of Hurricane Harvey"](https://www.youtube.com/watch?v=cb4PH7ak_iU) 
+
+- *The Intercept's* ["The Battle for Paradise: Naomi Klein Reports from Puerto Rico"](https://www.youtube.com/watch?v=pTiZtYaB3Zo)
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Critical Interpretation Essay #2 must be turned in by Friday October 28, by 11:59 p.m.**
+
+\bigbreak
+
+## `r advdate(mon, 11)`: Global Health (In)justice
+
+**Topics:**
+
+(1) Globalization and Pandemics I: Ebola
+(2) Globalization and Pandemics II: Coronavirus (Covid-19)
+
+**Required Readings:**
+
++ 
+    ```{r week_11a_375, echo=FALSE, results='asis'}
+
+    bibs["wallace_ebolas_2016"]
+    
+    ```
+
++
+    ```{r week_11b_375, echo=FALSE, results='asis'}
+
+    bibs["wallace_covid-19_2020"]
+    
+    ```
+
+**Films (required):**
+
+- [*Ebola Outbreak*](https://www.pbs.org/wgbh/frontline/documentary/ebola-outbreak/) (Boston: WGBH/Frontline, 2014)
+- [*How Wildlife Trade is Linked to Coronavirus*](https://www.youtube.com/watch?v=TPpoJGYlW54) by Vox (2020)
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+
+\bigbreak
+\hrule
+
+>> ## PART III. CONCRETE ANALYSIS OF CONCRETE SITUATIONS
+
+## `r advdate(mon, 12)`: Latin America in Capitalist Globalization: Processes of Incorporation
+
+**Topics:**
+
+(1) Latin America in Globalization: Socio-Economic Transformation and Migration
+(2) Latin America in Globalization: Informalization, Feminization and Immiseration
+
+**Required Readings:**
+
++
+    ```{r week_12_a_375, echo=FALSE, results='asis'}
+
+    bibs["robinson_latin_2012"]
+    
+    ```
+
++
+    ```{r week_12_b_375, echo=FALSE, results='asis'}
+
+    bibs["robinson_global_2014"]
+    
+    ```
+
++
+    ```{r week_12_c_375, echo=FALSE, results='asis'}
+
+    bibs["robinson_chapter_2008"]
+    
+    ```
+    \colorbox{Goldenrod}{\bf{Read pp. 241-244 and 247-254 only}}
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Quiz #3 must be completed by Thursday October 20, by 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 13)`: Latin America in Capitalist Globalization: Processes of State-led Resistance
+
+**Topics:**
+
+(1) Cuba’s Arduous Resistance to Capitalist Globalization
+(2) *The Pink Tide*: A Latin American Turn to the Left
+
+**Required Readings:**
+
++
+    ```{r week_13a_375, echo=FALSE, results='asis'}
+
+    bibs["yaffe_surviving_2020"]
+    
+    ```
+
++ 
+    ```{r week_b_13_375, echo=FALSE, results='asis'}
+
+    bibs["stokke_social_2013"]
+    
+    ```
+
++
+    ```{r week_13_c_375, echo=FALSE, results='asis'}
+
+    bibs["robinson_chapter_2008-1"]
+    
+    ```
+  
+  \colorbox{Goldenrod}{\bf{Read the section "Venezuela and the Bolivarian Revolution" (pp. 322-326) only}}
+
++
+    ```{r week_13d_375, echo=FALSE, results='asis'}
+
+    bibs["weisbrot_economic_2019"]
+    
+    ```
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 14)`: Fall Break - No classes will be held
+
+- \textcolor{Magenta}{\bf{No required readings or assignments due this week.}}
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 15)`: Debating China’s Place in Globalization
+
+**Topics:**
+
+(1) China’s Rise as Historic East Asian Renaissance
+(2) China’s Rise as the PRC’s Road to Capitalism
+
+**Required Readings:**
+
++
+    ```{r week_15a_375, echo=FALSE, results='asis'}
+
+    bibs["arrighi_origins_2007"]
+    
+    ```
+
++
+    ```{r week_15b_375, echo=FALSE, results='asis'}
+
+    bibs["andreas_changing_2008"]
+    
+    ```
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Quiz #4 must be completed by Thursday December 1, by 11:59 p.m.**
+
+\bigbreak
+\hrule
+
+## `r advdate(mon, 16)`: Dynamics of Global Resistance
+
++
+    ```{r week_16a_357, echo=FALSE, results='asis'}
+
+    bibs["wallerstein_new_2002"]
+
+    ```
+
++ 
+    ```{r week_16b_357, echo=FALSE, results='asis'}
+
+    bibs["zizek_resistance_2007"]
+    
+    ```
+  
++ 
+    ```{r week_16c_357, echo=FALSE, results='asis'}
+
+    bibs["wright_two_2006"]
+    
+    ```
++
+    ```{r week_16e_357, echo=FALSE, results='asis'}
+
+    bibs["noisecat_indigenous_2016"]
+    
+    ```
+
+**Assignments Due:**
+
+- Weekly Perusall Participation
+- **Group presentation/video due Friday December 9, by 11:59 p.m.**
+- **Extra credit assignments due Friday December 9, by 11:59 p.m.**
+- **Re-write of lowest scored paper must be turned in by Friday December 9, by 11:59 p.m.**
+
+## Final Exam will be held on Tuesday December 13. More details will be posted on Canvas. 
+
+\bigbreak
+\hrule
 

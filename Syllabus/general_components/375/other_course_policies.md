@@ -19,4 +19,3 @@ output:
 -	All written work will be assessed on content, depth, logic, and quality of written expression.
 
 - Students are responsible for handling the necessary paperwork for adding or dropping this class. \textcolor{red}{\bf{If a student does not withdraw, and does not attend class or complete required work, an “F” or “WU” will be reported for the final grade. Instructors may drop a student who does not attend the first two classes.}}
-

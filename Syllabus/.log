@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.22)  5 AUG 2022 12:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.22)  5 AUG 2022 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/Users/macbookpro/Library/CloudStorage/OneDrive-CaliforniaStateUniversityChico/Fall 2022 Term/SOCI 375_Global Problems/main docs/soci375_syllabus.tex"
-(/Users/macbookpro/Library/CloudStorage/OneDrive-CaliforniaStateUniversityChico/Fall 2022 Term/SOCI 375_Global Problems/main docs/soci375_syllabus.tex
+**"/Users/macbookpro/Library/CloudStorage/OneDrive-CaliforniaStateUniversityChico/Fall 2022 Term/SOCI 375_Global Problems/main docs/.tex"
+(/Users/macbookpro/Library/CloudStorage/OneDrive-CaliforniaStateUniversityChico/Fall 2022 Term/SOCI 375_Global Problems/main docs/.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15> (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -343,8 +343,8 @@ File: l3backend-xetex.def 2022-07-01 L3 backend support: XeTeX
 \g__pdf_backend_object_int=\count292
 \g__pdf_backend_annotation_int=\count293
 \g__pdf_backend_link_int=\count294
-) (./soci375_syllabus.aux)
-\openout1 = `soci375_syllabus.aux'.
+) (./.aux)
+\openout1 = `.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
 LaTeX Font Info:    ... okay on input line 100.
@@ -409,9 +409,9 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 100.
 Package hyperref Info: Link coloring ON on input line 100.
-(./soci375_syllabus.out) (./soci375_syllabus.out)
+(./.out) (./.out)
 \@outlinefile=\write3
-\openout3 = `soci375_syllabus.out'.
+\openout3 = `.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 103.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
@@ -444,23 +444,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--127
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 249.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 241.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
+)
+Underfull \hbox (badness 10000) in paragraph at lines 269--271
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--283
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
- []
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3] [4] [5] [6] [7] [8]
 Missing character: There is no ’ ("2019) in font pplb8t!
@@ -472,28 +478,28 @@ Missing character: There is no ” ("201D) in font pplb8t!
 Missing character: There is no “ ("201C) in font pplb8t!
 Missing character: There is no ” ("201D) in font pplb8t!
 [11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (5.6038pt too wide) in paragraph at lines 1619--1625
+Overfull \hbox (5.6038pt too wide) in paragraph at lines 1611--1617
 \T1/ppl/m/n/10.95 doi: 10.1080/14747730701345218 (URL: [][]$https : / / doi . org / 10 . 1080 / 14747730701345218$[][]), <URL:
  []
 
 [19]
-Overfull \hbox (16.26332pt too wide) in paragraph at lines 1675--1680
+Overfull \hbox (16.26332pt too wide) in paragraph at lines 1667--1672
 [][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 14452 / MR-[]072-[]01-[]2020-[]05 _ 1$[][]), <URL: [][]$https : / / monthlyreviewarchives . org /
  []
 
 [20] [21] 
 AED: lastpage setting LastPage
-[22] (./soci375_syllabus.aux)
-Package rerunfilecheck Info: File `soci375_syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: 30F9D9EFC3DE4448C5E4BB92A2AEFF40;7382.
+[22] (./.aux)
+Package rerunfilecheck Info: File `.out' has not changed.
+(rerunfilecheck)             Checksum: EE0B63FE96F2CBD87C964EC78D40B53D;7320.
  ) 
 Here is how much of TeX's memory you used:
- 10306 strings out of 477864
- 168165 string characters out of 5845801
- 495057 words of memory out of 5000000
- 31094 multiletter control sequences out of 15000+600000
+ 10303 strings out of 477864
+ 167873 string characters out of 5845801
+ 494866 words of memory out of 5000000
+ 31093 multiletter control sequences out of 15000+600000
  495826 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,12n,69p,1336b,407s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,12n,69p,1320b,407s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on soci375_syllabus.pdf (22 pages).
+Output written on .pdf (22 pages).
