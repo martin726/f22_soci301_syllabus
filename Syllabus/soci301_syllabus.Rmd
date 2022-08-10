@@ -13,14 +13,14 @@ output:
   html_document:
     df_print: paged
 geometry: margin=1in
-instructor:
+professor:
 - name: Dr. Martín Jacinto
   email: mjacinto@csuchico.edu
   prefered_contact: Canvas Messaging
   officehours: 10:00 a.m. - 12:00 p.m. Wed
-  office: TBD
+  office: Zoom meeting room
   correspondence_policy: Respond within 24-48 hours
-  instructor:
+  professor:
     
 # teachingassistant:
 #  - name: Filler
@@ -28,8 +28,7 @@ instructor:
 #    officehours: W T
 #    office: OfficeNumber
 #    sections: '301'
-
-classroom: 'Butte Hall 308'
+classroom: 'Butte Hall 308 / Online' 
 classhours: 2:00 p.m. - 3:15 p.m.	TuTh
 fontfamily: mathpazo
 fontsize: 11pt
@@ -39,8 +38,18 @@ header-includes: \linespread{1.05}
   -\usepackage{fontawesome5}
   -\usepackage{color}
   -\usepackage{soul}
-
+  -\usepackage{enumitem}
+  -\usepackage{pifont}
+  -\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
 ---
+
+```{r directory, eval=FALSE, include=FALSE}
+
+rmarkdown::render("~/Documents/GitHub/syllabi/fall_2022/f22_syllabi/Syllabus/soci301_syllabus.Rmd", 
+                  output_file="soci301_syllabus.pdf", 
+                  output_dir="~/martymarr0726@gmail.com - Google Drive/My Drive/CSU Chico/Fall 2022 Term/SOCI 301 - Soc Theory")
+
+```
 
 ```{r setup, include=FALSE, ache=F, message=F, warning=F, results="hide"}
 
@@ -171,14 +180,14 @@ Grades <- tribble( ~ Grade,
 ####Assignment weight table####
 Weights <- tribble(~ Item,
                     ~ Weight,
-                    "Attendance & Participation",
-                    "10 %",
-                    "Weekly Perusall Participation & Discussion",
-                    "10 %",
-                    "Quizzes", 
-                    "20 %",
                     "Analytical Response Papers",
-                    "60 %",
+                    "40 %",
+                    "Five (5) Quizzes", 
+                    "30 %",
+                    "Weekly Perusall Participation & Discussion",
+                    "15 %",
+                    "Attendance & Participation",
+                    "15 %",
                     "TOTAL", 
                     "100 %"
                   )
@@ -188,8 +197,10 @@ Weights <- tribble(~ Item,
 
 ```{r indigenous_land_statement, child='general_components/indigenous_land_statement.md'}
 
-
 ```
+
+# Course Status
+This course is a requirement for the sociology major. It has a prerequisite of SOCI 300, Classical Social Theory, though this prerequisite may be waived with permission of the professor. *Note that if you take SOCI 301 prior to or concurrent with SOCI 300, you will not be able to repeat SOCI 300 for forgiveness.*
 
 # Course Description
 
@@ -216,11 +227,8 @@ This course requires you to read a lot of social theory, which will be abstract 
 - Recognize the relationship between personal agency, social responsibility, and social change (sociological imagination). 
 - Display knowledge of the impact of social institutions on everyday lives.
 
-## Course Status
-This course is a requirement for the sociology major. It has a prerequisite of SOCI 300, Classical Social Theory, though this prerequisite may be waived with permission of the instructor. *Note that if you take SOCI 301 prior to or concurrent with SOCI 300, you will not be able to repeat SOCI 300 for forgiveness.*
-
 ## Important Dates
-- Sept. 2nd - Last day to drop without instructor's approval\
+- Sept. 2nd - Last day to drop without professor's approval\
 - Oct. 24th - Last day to drop and receive financial credit for refund\
 - Nov. 10th - Last day to drop or withdraw\
 - See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
@@ -244,12 +252,12 @@ This course is a requirement for the sociology major. It has a prerequisite of S
 
 # Structure and Character of a ChicoFlex Course 
 
--  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Canvas Learn**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same instructor.” **All times will use Pacific Standard Time (PST).** This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Canvas Learn regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the instructor from Canvas Learn (this will ensure instructor access to emails).*
+-  **Since this is a [*ChicoFlex* Course](https://www.csuchico.edu/tlp/chicoflex/faq.shtml#whatiscoflex), ALL communications for this course will be conducted via Canvas**. At Chico State, “this class meets at set days/times in-person (requiring social distancing and face coverings) and is paired with another section taught simultaneously online by the same professor.” **All times will use Pacific Standard Time (PST).** This means that this class includes campus students who come to a physical class, online students who show up “live,” and online students who watch the archived lectures. Therefore, it is the student’s responsibility to check Canvas regularly and to check in with the professor or review the Syllabus re: any administrative questions. *Students are required to email the professor from Canvas (this will ensure professor access to emails).*
 
 -  Also, given the fact that we’re still in a global pandemic, the course will proceed fluidly. I want this class to work for all of us and will remain sensitive to the ongoing needs of students while adhering to public health standards and guidelines. 
 
 ## Technological Problems: 
-- Occasional problems with technology are a common part of the modern university experience. If you have any technical difficulties, you [**should call IT Support Services (ITSS) at 530-898-6000**](https://www.csuchico.edu/itss/). After you call them, if they are not able to resolve the issue, please email me with a description of the problem, the name of the person you spoke to in that office, what they and/or you are doing to resolve the problem, and the expected timeline for its resolution. If you are having trouble with Canvas Learn during a quiz or other assignment, take a screen shot or photo of the computer screen and the error message you receive and email it to me AND contact ITSS at 530-898-6000. If you experience technical difficulties while submitting an assignment, call ITSS at 1-800-898-6000 and send a copy of the assignment to me via Canvas Learn. If any of these things happen when ITSS is closed, please follow up with them immediately the next business day. You MUST contact ITSS to resolve the issue if you are asking for any kind of leniency or extension. 
+- Occasional problems with technology are a common part of the modern university experience. If you have any technical difficulties, you [**should call IT Support Services (ITSS) at 530-898-6000**](https://www.csuchico.edu/itss/). After you call them, if they are not able to resolve the issue, please email me with a description of the problem, the name of the person you spoke to in that office, what they and/or you are doing to resolve the problem, and the expected timeline for its resolution. If you are having trouble with Canvas or Zoom during a quiz or other assignment, take a screen shot or photo of the computer screen and the error message you receive and email it to me AND contact ITSS at 530-898-6000. If you experience technical difficulties while submitting an assignment, call ITSS at 1-800-898-6000 and send a copy of the assignment to me via Canvas "Inbox" messaging. If any of these things happen when ITSS is closed, please follow up with them immediately the next business day. You MUST contact ITSS to resolve the issue if you are asking for any kind of leniency or extension. 
 
 ```{r covid-19 policy, child='general_components/COVID_policy.md'}
 
@@ -265,7 +273,7 @@ Table \ref{tab:grade_scale} displays the grading scale that is used to determine
 
 \renewcommand{\arraystretch}{1.5}
 
-```{r Grades_Table, echo=FALSE, results='asis'}
+```{r grades_table_301, echo=FALSE, results='asis'}
 
 kable(Grades,
       align = c("l", "c", "l"),format="latex",  
@@ -279,7 +287,7 @@ Table \ref{tab:weight_table} displays how your final grade will be weighed accor
 
 \renewcommand{\arraystretch}{1.5}
 
-```{r Weights Table, echo=FALSE, results='asis'}
+```{r weights_table_301, echo=FALSE, results='asis'}
 
 kable(Weights,
       align = c("l", "c"), format="latex", booktabs=T, 
@@ -293,25 +301,7 @@ kable(Weights,
 
 **Note regarding class workload:** This is a three (3) credit hour class. You should expect to spend two hours outside of class for every one hour in class. This time outside of class will be spent on reading, assignments, and studying. This means you should plan on devoting six hours of outside time per week to this course.     
 
-## Attendance and Class Participation (10% of Final Grade)
-
-The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. Participation also includes consistent involvement in online interactive activities. These activities will occur periodically during class throughout the semester. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, [see “COVID Policy” section](#covid_policy) above if you are symptomatic and an in-class student. 
-
-In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
-
-**REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** 
-
-```{r perusall_participation, child='general_components/301/perusall_participation.md'}
-
-```
-
-## Quizzes (20% of Final Grade; 4% each){#quizzes}
-
-Five (5) quizzes are required in this class. The first quiz will be a syllabus quiz and will cover course policies and requirements. The syllabus quiz will be posted on Canvas by the end of the first class and must be completed by **11:59 p.m. on Friday September 2nd**. The other four quizzes will cover theories, ideas, and concepts from the course readings and lectures. **These four required reading quizzes will be posted electronically on Thursday at 4:00 p.m. and must be completed by 11:59 p.m. on Friday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. 
-
-**Important Note: Please keep in mind that your lowest quiz score will not be counted when computing final grades. Instead, your highest quiz score will be counted twice in replacement of your lowest quiz score.  All quizzes will be posted on Canvas and you will be provided advanced notice.**
-
-## Four (4) Analytical Response Papers (60% of Final Grade; 15% each) {#writing_assignments}
+## Four (4) Analytical Response Papers (40% of Final Grade; 10% each) {#writing_assignments}
 
 Four papers will be assigned for the semester. The required response papers will answer
 either one or two questions posed by the professor based on the course readings and lectures. These assignments will assess knowledge of the course material, critical thinking skills, and writing skills. The papers will require you to be analytical and to reflect deeply on the theoretical works we will cover. Additional instructions about the response papers will be distributed in class during the second week of instruction. **Each paper must be turned in no later than 11:59 p.m. on the day that it is due.** Moreover, please also note that you have options for each paper assignment; this means that for each paper assignment you can choose to write between two sets of theories. Additionally, you have the opportunity to re-write up to **two** of your first three lower-scored analytical response papers for a higher grade. If you decide to rewrite one or two lower-scored papers, these will be due in class on **Tuesday, December 13, 2022 (our “final exam” due date) no later than 11:59 p.m.**
@@ -341,10 +331,19 @@ either one or two questions posed by the professor based on the course readings 
 |              |Papers Chosen From The First Three    |                |
 |              |Analytical Papers Written             |                |
 
+### Guidelines for analytical response papers 
 
-### Guidelines for papers 
-Papers have a word limit, approximately 1000 words (roughly 4 double-spaced pages); must be typed with 12-point font, 1-inch margins, and Times New Roman font (11-point Arial font is also appropriate). Proper grammar and APA citation of sources is expected. **No other format will be accepted.** 
+Papers have a word length requirement: must contain between 1000 to 1200 words (roughly 4 to 4 1/2 double-spaced pages); must be typed with 12-point font, double-spaced, with 1-inch margins, and Times New Roman font (11-point Arial font is also appropriate).
 
+Please also follow these document design conventions:
+
+- Your name, course number, and paper’s title at the top of the first page. **This information does not count toward the word count.**
+- You do not need a separate title page or a running head. 
+- Page numbers on all pages. 
+- APA-style in-text citations and references list in APA format. **Citations do not count toward word length requirements.**
+- Proofread as appropriate for the document’s stage in the writing process. All final versions must be proofread for mechanical errors (spelling, grammar, punctuation). All papers in this course must follow conventions of written academic English.
+- All assignments must be submitted via Canvas. Papers will be accepted in .doc, .docx, .rtf, and .pdf formats.
+  
 ### Tips and tricks for good writing
 Use a citation management software to organize your papers and create bibiliographies. My personal preference is [Zotero](https://www.zotero.org/) because it is free, open source, and works across multiple operating systems. For information about other citation management software that is available to CSU Chico students, visit the Meriam Library ["Sample Papers and Citation Tools" page](https://libguides.csuchico.edu/c.php?g=432300&p=2948649). 
 
@@ -352,8 +351,26 @@ Write and then revise. Ask for feedback from peers or wait until you have some d
 
 Prompt yourself with questions that have short, concrete answers.
 
-## Extra-Credit (Film Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
-Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on Canvas by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
+## Quizzes (30% of Final Grade; 6% each){#quizzes}
+
+Five (5) quizzes are required in this class. The first quiz will be a syllabus quiz and will cover course policies and requirements. The syllabus quiz will be posted on Canvas by the end of the first class and must be completed by **11:59 p.m. on Friday September 2nd**. The other four quizzes will cover theories, ideas, and concepts from the course readings and lectures. **These four required reading quizzes will be posted electronically after Thursday's class and must be completed by 11:59 p.m. on the following Friday.** Each quiz will contain several multiple choice questions based on course readings and lecture material. These quizzes are designed to help you absorb the course readings and lectures, and to provide you with the opportunity to assess your mastery of the theories we are covering in the course. \textcolor{ForestGreen{Quizzes are open book and open notes. 
+
+**Important Note: Please keep in mind that your lowest quiz score will not be counted when computing final grades. Instead, your highest quiz score will be counted twice in replacement of your lowest quiz score.  All quizzes will be posted on Canvas and you will be provided advanced notice.**
+
+```{r perusall_participation, child='general_components/301/perusall_participation.md'}
+
+```
+
+## Attendance and Class Participation (15% of Final Grade)
+
+The format of this course is an interactive, “live” hybrid lecture and discussion with the objective of collaborative learning and analysis. Participation in class discussion is necessary for your development as a critical scholar and for your understanding of the course material. Participation also includes consistent involvement in online interactive activities. These activities will occur periodically during class throughout the semester. This is a **required** course with difficult reading material and, therefore, it is crucial to establish an informed and critical discourse with each other over the material. Participation includes contributions to class discussions either in class or via class assignments. Participation also includes actively listening, as well as sharing your ideas, criticisms, and frustrations with course material. To ensure active participation, students must come to class having read and taken notes on all material. Furthermore, you are expected to contribute to discussions either in class or via class assignments. Grading of all work is done with the expectation that attendance and participation will be rewarded in the final grade. Also, [see “COVID Policy” section](#covid_policy) above if you are symptomatic and an in-class student. 
+
+In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
+
+**REMEMBER! Attendance is mandatory in all sociology classes (see [Attendance Policy section](#attendance) above). It is also crucial to doing well in this class. In the context of this class, attendance means COMPLETING ALL OF THE ASSIGNMENTS, QUIZZES, INDIVIDUAL WORK, etc.** 
+
+## Extra-Credit (Film/Documentary/Album Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
+Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two (2) 1-page (single-spaced) analytical reviews and critiques of two films/documentaries/albums. The F/D/A analyses need to provide a critical sociological review and analysis using one or more of the theories or theorists covered in the course. A list of suggested films/ documentaries will be posted on Canvas by the end of the third week of classes along with the guidelines for this assignment. As for musical albums, feel free to select an album that you feel you can make a strong connection with a sociological theory or theorist we covered.  **These extra credit critiques should be concise, have a substantive connection to the course material, and be well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
 
 ```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
 
@@ -405,7 +422,7 @@ Students will have the opportunity to earn extra credit in this course. If you w
 
 # Final thoughts
 
-This document is a roadmap for our semester. We learn about social theory together and its applicability towards understanding our environment. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
+This document is a roadmap for our semester. We learn about social theory together and its applicability towards understanding our environment. Like all your classes, you will get out what you put into this course. Asking for help from one another and your professors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
 
 __If this document is updated, a copy will be supplied to you via Canvas and changes will be announced in class.__
 
@@ -440,7 +457,8 @@ Readings we will cover are listed below. \textcolor{red}{\bf{Note that the profe
 
 *These are questions you should consider as you complete each reading:* What are the authors’ main objectives/research questions?  What methods, if any, did the author use to explore this question? What are the author’s main conclusions?  How do the readings build upon or challenge other works we have read thus far? Answering these questions on your own will better prepare you for quizzes and writing assignments.
 
-# COURSE SCHEDULE
+# COURSE SCHEDULE **\colorbox{LimeGreen}{Syllabus last updated on `r format(Sys.time(), '%B %d, %Y')`}**
+
 ```{r echo=FALSE}
 
 tue <- as.Date("2022-08-23")
@@ -459,6 +477,20 @@ advdate <- function(obj, adv) {
 ```
 
 ## `r advdate(tue, 1)`: Introduction and Overview of Course
+
+**Optional Reading:**
+
++
+    ```{r week 1a, echo=FALSE, results='asis'}
+
+    bib["dillon_introduction_2020"]
+    
+    ```
+    \textcolor{BrickRed}{\bf{[Read: Chapter 1,2,3]}}
+    
+**Assignment Due:**
+
+- Complete Discussion Board Activity *Favorite Study Space* by **Sunday August 28, by 11:59 p.m.**
 
 \bigbreak
 \hrule
@@ -486,6 +518,7 @@ advdate <- function(obj, adv) {
 **Assignments Due:**
 
 - Weekly Perusall Participation
+- **Complete Syllabus Quiz by Friday September 2, by 11:59 p.m.**
 
 \bigbreak
 \hrule
@@ -875,7 +908,3 @@ AND
 - Turn in Analytical Paper #4 - focusing on either a) theories of race and ethnicity; **OR** b) feminist, queer, intersectionality theories. Paper must be turned in by **Tuesday December 13 11:59 p.m. in Canvas.**
 
 - \textcolor{BrickRed}{\bf{Optional:}} Turn in up to **TWO** re-written analytical papers. You may resubmit for a higher grade up to two (2) of your lowest-scored papers. **These must be turned in by Tuesday December 13 11:59 p.m. in Canvas.**
-
-
-
-**\colorbox{LimeGreen}{Syllabus last updated on `r format(Sys.time(), '%B %d, %Y')`}**

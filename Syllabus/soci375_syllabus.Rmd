@@ -13,14 +13,14 @@ output:
   html_document:
     df_print: paged
 geometry: margin=1in
-instructor:
+professor:
 - name: Dr. Martín Jacinto
   email: mjacinto@csuchico.edu
   prefered_contact: Canvas Messaging
   officehours: 10:00 a.m. - 12:00 p.m. Tue
-  office: TBD
+  office: Zoom meeting room
   correspondence_policy: Respond within 24-48 hours
-  instructor:
+  professor:
     
 # teachingassistant:
 #  - name: Filler
@@ -48,11 +48,9 @@ header-includes: \linespread{1.05}
 
 rmarkdown::render("~/Documents/GitHub/syllabi/fall_2022/f22_syllabi/Syllabus/soci375_syllabus.Rmd", 
                   output_file="soci375_syllabus.pdf", 
-                  output_dir="~/OneDrive - California State University Chico/Fall 2022 Term/SOCI_Global Problems/main docs")
+                  output_dir="~/martymarr0726@gmail.com - Google Drive/My Drive/CSU Chico/Fall 2022 Term/SOCI 375 - Global Probs")
 
 ```
-
-
 
 ```{r setup_375, include=FALSE, ache=F, message=F, warning=F, results="hide"}
 
@@ -247,7 +245,7 @@ Beyond the core issue of globalization as the expansion of capitalism, we will l
 - Demonstrate proficiency in the use of technology.
 
 ## Important Dates
-- Sept. 2nd - Last day to drop without instructor's approval\
+- Sept. 2nd - Last day to drop without professor's approval\
 - Oct. 24th - Last day to drop and receive financial credit for refund\
 - Nov. 10th - Last day to drop or withdraw\
 - See the [2022-2023 Academic Calendar](https://www.csuchico.edu/apss/calendar/aca-cal-2022-23.shtml) for more information.
@@ -296,7 +294,7 @@ kable(Weights,
 
 **Note regarding class workload:** This is a three (3) credit hour class. You should expect to spend two hours outside of class for every one hour in class. This time outside of class will be spent on reading, assignments, and studying. This means you should plan on devoting six hours of outside time per week to this course.     
 
-## Two Exams (30 % of Final Grade; 15% each)
+## Two Exams (30% of Final Grade; 15% each)
 
 Each exam can be comprised of multiple choice, true/false, definitions, short answer, and essay questions. **You will be allowed 1 page worth of notes.** The mid-term will cover the material covered from week 1 to 7. The final exam will cover the rest of the semester. Detailed instructions for the exam will be provided via Canvas as each exam approaches. 
 
@@ -308,7 +306,18 @@ The essays’ goal is to demonstrate analytical thinking and a nuanced understan
  
 ### Guidelines for papers 
 
-Papers have a word limit, approximately between 1000 to 1200 words (roughly 4 double-spaced pages); must be typed with 12-point font, 1-inch margins, and Times New Roman font (11-point Arial font is also appropriate). Proper grammar and APA citation of sources is expected. **No other format will be accepted.** 
+Papers have a word length requirement: must contain between 1000 to 1200 words (roughly 4 to 4 1/2 double-spaced pages); must be typed with 12-point font, double-spaced, with 1-inch margins, and Times New Roman font (11-point Arial font is also appropriate).
+
+Please also follow these document design conventions:
+
+- Your name, course number, and paper’s title at the top of the first page. **This information does not count toward the word count.**
+- You do not need a separate title page or a running head. 
+- Page numbers on all pages. 
+- APA-style in-text citations and references list in APA format. **Citations do not count toward word length requirements.**
+- Proofread as appropriate for the document’s stage in the writing process. All final versions must be proofread for mechanical errors (spelling, grammar, punctuation). All papers in this course must follow conventions of written academic English.
+- All assignments must be submitted via Canvas. Papers will be accepted in .doc, .docx, .rtf, and .pdf formats.
+
+\textcolor{red}{\bf{No other format will be accepted.}}
 
 ### Tips and tricks for good writing
 Use a citation management software to organize your papers and create bibiliographies. My personal preference is [Zotero](https://www.zotero.org/) because it is free, open source, and works across multiple operating systems. For information about other citation management software that is available to CSU Chico students, visit the Meriam Library ["Sample Papers and Citation Tools" page](https://libguides.csuchico.edu/c.php?g=432300&p=2948649). 
@@ -323,7 +332,7 @@ Five (5) quizzes are required in this class. The quizzes will cover theories, id
 
 ## Paired Presentation (15 % of Final Grade)
 
-Students will work in pairs examining one dimension of globalization— inequality trends, labor processes, gender dynamics, environmental injustice, etc.— and prepare a live video presentation. The evaluation of the presentation/video will be based on the following criteria: rapport with audience; voice, projection, and audibility; clarity in the expression of ideas; organization; persuasive use of evidence; and ability to respond to questions and to accept valid criticisms. I will post specific guidelines for your oral presentations on the course’s Canvas site. **The paired presentation/video is due on Friday December 9, by 11:59 p.m.**
+Students will work in pairs examining one dimension of globalization— inequality trends, labor processes, gender dynamics, environmental injustice, etc.— and prepare a live or pre-recorded video presentation. The evaluation of the presentation/video will be based on the following criteria: rapport with audience; voice, projection, and audibility; clarity in the expression of ideas; organization; persuasive use of evidence; and ability to respond to questions and to accept valid criticisms. I will post specific guidelines for your oral presentations on the course’s Canvas site. **The paired presentation/video is due on Friday December 9, by 11:59 p.m.**
 
 ```{r perusall_participation, child='general_components/375/perusall_participation.md'}
 
@@ -331,7 +340,7 @@ Students will work in pairs examining one dimension of globalization— inequali
 
 ## Attendance and Participation (10% of Final Grade)
 
-For this course, the participation grade will include various things. First, participation requires attendance to all Zoom lectures which will take place Mondays and Wednesdays 8:00 to 9:30 am. The participation grade will also include any in-class activities and group exercises that we may do during Zoom meetings or immediately after a meeting. That is, throughout the semester I will assign short activities—these will take place either during class or to be completed immediately after a lecture or as a discussion post—that will count toward your overall participation grade. Note that **Discussion Board Posts** will be a 33% your participation grade—we will have a number of them during the semester.
+For this course, the participation grade will include various things. First, participation requires attendance to **all Zoom lectures which will take place Mondays and Wednesdays 8:00 to 9:30 am.** The participation grade will also include any in-class activities and group exercises that we may do during Zoom meetings or immediately after a meeting. That is, throughout the semester I will assign short activities—these will take place either during class or to be completed immediately after a lecture or as a discussion post—that will count toward your overall participation grade. Note that **Discussion Board Posts** will be a 33% your participation grade—we will have a number of them during the semester.
 
 In addition to completing all of the assigned reading before each designated day of the week (see reading schedule below and make sure you attend class for the ongoing reading deadlines), you must critically reflect on what is interesting/troubling/useful about what you have read. You are expected to do this work on your own. Be prepared to offer your questions, insights, and critique either via communication with me, writing assignments and/or in conversation with other students. 
 
@@ -339,7 +348,6 @@ In addition to completing all of the assigned reading before each designated day
 
 ## Extra-Credit (Film Reviews & Analyses) [Maximum of 10 Points/5 Points Per Analysis]
 Students will have the opportunity to earn extra credit in this course. If you would like to earn up to 10 extra points maximum toward your final course grade, you can write two 1-page (single-spaced) analytical reviews and critiques of two films. The film analyses need to provide a *critical* sociological review and analysis that connects to some of the main themes of the course. A list of suggested films/ documentaries will be posted on Canvas by the end of the third week of classes along with the guidelines for this assignment. **These extra credit critiques should be concise and well-organized and argued; the film analyses can be submitted at any time during the semester, but no later than Friday December 9 by 11:59 p.m.**
-
 
 ```{r late_work-course_eval, child='general_components/late_work-student_emergencies.md'}
 
@@ -391,7 +399,7 @@ Students will have the opportunity to earn extra credit in this course. If you w
 
 # Final thoughts
 
-This document is a roadmap for our semester. We will learn about global problems and globalization as a social process. Like all your classes, you will get out what you put into this course. Asking for help from one another and your instructors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
+This document is a roadmap for our semester. We will learn about global problems and globalization as a social process. Like all your classes, you will get out what you put into this course. Asking for help from one another and your professors is important, don't be afraid to ask a question about something you don't know or if you want to check your knowledge about something you think you know. Do not wait to ask for help! We are all here to learn; it is not a competition. 
 
 __If this document is updated, a copy will be supplied to you via Canvas and changes will be announced in class.__
 
@@ -632,7 +640,7 @@ episode available by going to Free to Choose Network. (You can skip the intro by
 **Assignments Due:**
 
 - Weekly Perusall Participation
-- **Critical Interpretation Essay #1 due by Sunday 11:59 p.m.**
+- **Critical Interpretation Essay #1 due by Sunday September 25 11:59 p.m.**
 
 \bigbreak
 \hrule

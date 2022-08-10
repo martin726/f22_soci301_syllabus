@@ -1,6 +1,6 @@
 ## Mental health
 
-Being a university student is stressful and can negatively impact mental health. The [WildCat Counseling Center](https://www.csuchico.edu/counseling/) offers free counseling services to regularly enrolled students at California State University, Chico. There are a wide variety of reasons students seek counseling:
+Being a university student is stressful and can negatively impact mental health. The [WellCat Counseling Center](https://www.csuchico.edu/counseling/) offers free counseling services to regularly enrolled students at California State University, Chico. There are a wide variety of reasons students seek counseling:
 
 - Resolving personal problems or conflicts.
 - Seeking clarification and support in making important life decisions.

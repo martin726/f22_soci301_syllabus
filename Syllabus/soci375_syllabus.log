@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.22)  5 AUG 2022 12:09
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.7.22)  9 AUG 2022 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"/Users/macbookpro/Library/CloudStorage/OneDrive-CaliforniaStateUniversityChico/Fall 2022 Term/SOCI 375_Global Problems/main docs/soci375_syllabus.tex"
-(/Users/macbookpro/Library/CloudStorage/OneDrive-CaliforniaStateUniversityChico/Fall 2022 Term/SOCI 375_Global Problems/main docs/soci375_syllabus.tex
+**"/Volumes/GoogleDrive-118233377844057540607/My Drive/CSU Chico/Fall 2022 Term/SOCI 375 - Global Probs/soci375_syllabus.tex"
+(/Volumes/GoogleDrive-118233377844057540607/My Drive/CSU Chico/Fall 2022 Term/SOCI 375 - Global Probs/soci375_syllabus.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15> (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -437,63 +437,68 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--127
+Underfull \hbox (badness 10000) in paragraph at lines 112--118
 
  []
 
 [1
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 249.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 240.
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
-) [2]
-Underfull \hbox (badness 10000) in paragraph at lines 277--279
+)
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 270--272
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 279--281
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--283
+Underfull \hbox (badness 10000) in paragraph at lines 272--274
 
  []
 
 [3] [4] [5] [6] [7] [8]
 Missing character: There is no ’ ("2019) in font pplb8t!
-[9] [10]
+[9] [10] [11]
 Missing character: There is no “ ("201C) in font pplb8t!
 Missing character: There is no ” ("201D) in font pplb8t!
 Missing character: There is no “ ("201C) in font pplb8t!
 Missing character: There is no ” ("201D) in font pplb8t!
 Missing character: There is no “ ("201C) in font pplb8t!
 Missing character: There is no ” ("201D) in font pplb8t!
-[11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (5.6038pt too wide) in paragraph at lines 1619--1625
+[12] [13] [14] [15] [16]
+Overfull \hbox (1.53851pt too wide) in paragraph at lines 1316--1319
+[]\T1/ppl/m/n/10.95 Robinson WI (2007). ``Be-yond the The-ory of Im-pe-ri-al-ism: Global Cap-i-tal-ism and the Transna-
+ []
+
+[17] [18] [19]
+Overfull \hbox (5.6038pt too wide) in paragraph at lines 1707--1713
 \T1/ppl/m/n/10.95 doi: 10.1080/14747730701345218 (URL: [][]$https : / / doi . org / 10 . 1080 / 14747730701345218$[][]), <URL:
  []
 
-[19]
-Overfull \hbox (16.26332pt too wide) in paragraph at lines 1675--1680
+[20]
+Overfull \hbox (16.26332pt too wide) in paragraph at lines 1763--1768
 [][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 14452 / MR-[]072-[]01-[]2020-[]05 _ 1$[][]), <URL: [][]$https : / / monthlyreviewarchives . org /
  []
 
-[20] [21] 
+[21] [22] 
 AED: lastpage setting LastPage
-[22] (./soci375_syllabus.aux)
+[23] (./soci375_syllabus.aux)
 Package rerunfilecheck Info: File `soci375_syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: 30F9D9EFC3DE4448C5E4BB92A2AEFF40;7382.
+(rerunfilecheck)             Checksum: 0CE22BD9AD5372EF8A2A3D6A18E90053;7586.
  ) 
 Here is how much of TeX's memory you used:
- 10306 strings out of 477864
- 168165 string characters out of 5845801
- 495057 words of memory out of 5000000
- 31094 multiletter control sequences out of 15000+600000
+ 10308 strings out of 477864
+ 168162 string characters out of 5845801
+ 495414 words of memory out of 5000000
+ 31096 multiletter control sequences out of 15000+600000
  495826 words of font info for 83 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 62i,12n,69p,1336b,407s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 62i,12n,69p,1308b,428s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on soci375_syllabus.pdf (22 pages).
+Output written on soci375_syllabus.pdf (23 pages).

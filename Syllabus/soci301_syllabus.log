@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  5 AUG 2022 12:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.7.22)  9 AUG 2022 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**soci301_syllabus.tex
-(./soci301_syllabus.tex
+**"/Volumes/GoogleDrive-118233377844057540607/My Drive/CSU Chico/Fall 2022 Term/SOCI 301 - Soc Theory/soci301_syllabus.tex"
+(/Volumes/GoogleDrive-118233377844057540607/My Drive/CSU Chico/Fall 2022 Term/SOCI 301 - Soc Theory/soci301_syllabus.tex
 LaTeX2e <2022-06-01> patch level 5
 L3 programming layer <2022-07-15> (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
@@ -420,7 +420,7 @@ File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 LaTeX Warning: No \author given.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 113--119
 
  []
 
@@ -431,64 +431,58 @@ LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 19
 (/Users/macbookpro/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 248--250
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--254
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 [2] [3]
 
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 371.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18]
-Overfull \hbox (24.1086pt too wide) in paragraph at lines 1542--1548
-\T1/ppl/m/n/10.95 0360-0572, 1545-2115, doi: 10.1146/an-nurev.soc.26.1.169 (URL: [][]$https : / / doi . org / 10 . 1146 / annurev .
+[4] [5] [6] [7]
+Overfull \hbox (3.7377pt too wide) in paragraph at lines 713--713
+|\T1/ppl/b/n/12 Extra-Credit (Film/Documentary/Album Re-views & Anal-y-ses) [Max-i-mum of 10 Points/5
  []
 
-
-Overfull \hbox (5.7561pt too wide) in paragraph at lines 1569--1578
-\T1/ppl/m/n/10.95 soc . 30 . 012703 . 110519$[][]), <URL: [][]$https : / / www . annualreviews . org / doi / 10 . 1146 / annurev . soc . 30 .
- []
-
-[19]
-Overfull \hbox (39.0321pt too wide) in paragraph at lines 1661--1668
+[8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20]
+Overfull \hbox (39.0321pt too wide) in paragraph at lines 1762--1769
 [][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 2307 / 3207893$[][]), <URL: [][]$https : / / www . jstor . org / stable / 3207893 ? origin = crossref$[][]>.
  []
 
 
-Overfull \hbox (2.4486pt too wide) in paragraph at lines 1668--1675
+Overfull \hbox (2.4486pt too wide) in paragraph at lines 1769--1776
 [][]$\T1/ppl/m/n/10.95 https : / / doi . org / 10 . 1146 / annurev-[]soc-[]073014-[]112142$[][]), <URL: [][]$https : / / www . annualreviews .
  []
 
-
+[21] 
 AED: lastpage setting LastPage
-[20] [21] (./soci301_syllabus.aux)
+[22] (./soci301_syllabus.aux)
 Package rerunfilecheck Info: File `soci301_syllabus.out' has not changed.
-(rerunfilecheck)             Checksum: 11A53BE911887A072345BCED536A1624;17661.
+(rerunfilecheck)             Checksum: BE6C9AAFDDB81836D9801BAD2873C0A2;18592.
  ) 
 Here is how much of TeX's memory you used:
- 10352 strings out of 479983
- 167418 string characters out of 5886802
- 485544 words of memory out of 5000000
- 28237 multiletter control sequences out of 15000+600000
+ 10371 strings out of 479983
+ 168114 string characters out of 5886802
+ 485862 words of memory out of 5000000
+ 28246 multiletter control sequences out of 15000+600000
  503139 words of font info for 94 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,12n,67p,1205b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 60i,13n,67p,1306b,500s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/macbookpro/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on soci301_syllabus.pdf (21 pages, 151271 bytes).
+Output written on soci301_syllabus.pdf (22 pages, 154451 bytes).
 PDF statistics:
- 566 PDF objects out of 1000 (max. 8388607)
- 529 compressed objects within 6 object streams
- 168 named destinations out of 1000 (max. 500000)
- 529 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 542 compressed objects within 6 object streams
+ 177 named destinations out of 1000 (max. 500000)
+ 561 words of extra memory for PDF output out of 10000 (max. 10000000)
 

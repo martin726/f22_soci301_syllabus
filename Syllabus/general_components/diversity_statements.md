@@ -22,3 +22,25 @@ Faculty at CSU Chico strive to create an environment that supports meaningful di
 
 ## LGBTQ+ Equality Statement
 I am firmly committed to diversity and equality in all areas of campus life, including specifically members of the LGBTQ+ community. In this class I will work to promote an anti-discriminatory environment where everyone feels safe and welcome. I recognize that discrimination can be direct or indirect and take place at both institutional and personal levels. I unequivocally believe that such discrimination is unacceptable and I am committed to providing equality of opportunity for all by eliminating any and all discrimination, harassment, bullying, or victimization. The success of this policy relies on the support and understanding of everyone in this class. We all have a responsibility not to be offensive to each other, or to participate in, or condone harassment or discrimination of any kind.
+
+## Active Duty Military and Veterans Statement
+
+If you are a veteran, on active duty, in the reserves, or a spouse or dependent, and an aspect of your
+present or prior service makes it difficult for you to fulfill the requirements of the course, keep me
+informed about your situation and I will work with you. I realize that you have little to no control over
+prompt benefits processing, VA appointments, training schedules, deployments, and other aspects of
+service. Campus resources for veterans, service members, and families are located in the [Veterans Education and Transition Services (VETS) Office](https://www.csuchico.edu/vets/index.shtml) in room 330 in the Student Services Center (SSC) and is open Mon-Fri from 8:00AM to 4:45PM. The VETS Office can be reached at (530) 898-5911 or VETS@csuchico.edu. 
+
+## Students with children 
+
+I understand that some students have children, and that your responsibilities as a parent or caregiver are your top priority.  While I expect that you will make every effort to arrange suitable child care, I also know that sometimes unexpected situations arise, and that child care may be especially difficult to arrange right now.  Therefore, I have adopted the following policies:
+
+  - You are welcome to bring your child to my class as needed.  
+  
+  - You are welcome to feed your child in my class, including breastfeeding.  
+  
+  - If you bring your child to class, please provide quiet entertainment for them.  
+  
+  - Please feel free to step out of class as needed to care for your child.
+  
+  - If you are struggling to manage your family and academic responsibilities, please meet with me so I        can help.

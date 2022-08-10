@@ -1,16 +1,28 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # Getting Help And Communicating With Your Professor
 
-Remember, your professor is here to help you gain a rich understanding of the material. So, it is important to be connected to your instructor and seek help whenever you need it. However, it is primarily your responsibility to seek help when you need it. Use the following methods to get in touch and/or ask questions. 
-
+Remember, I am here to help you gain a rich understanding of the material. So, it is important to be connected to your professor and seek help whenever you need it. However, it is primarily your responsibility to seek help when you need it. Use the following methods to get in touch and/or ask questions. 
 
 ## Communication policy
-When contacting your about the course, please send message through "Message Your Professor" in Canvas. I check messages three times per day, Monday thru Friday, between 9:00 AM and 6:00 PM. Please allow up to 24-48 hours for a response during the week. If you contact on the weekend, expect a reply the following Monday. 
+When contacting your about the course, please send message through "Inbox" in Canvas. I check messages three times per day, Monday thru Friday, between 9:00 AM and 6:00 PM. Please allow up to 24-48 hours for a response during the week. If you contact on the weekend, expect a reply the following Monday. 
 
 - Requesting help: If you miss a class meeting, you should…
 
     1. First, look on the course website for material you missed. 
     2. Second, if you need help understanding the material, you should contact your classmate (either via direct email or Canvas discussion board). 
-    3. Third, if you still find it difficult, find some time to chat with me during office hours
+    3. Third, if you still find it difficult, find some time to chat with me during office hours.
+
+- Office Hours
+
+     > These open office hours are first come, first served, so you may need to wait in the Zoom waiting room if I am speaking with other students. 
+     
+     > *Need a conversation starter?* Ask me about movies, music, books, documentaries, or food. 
+     
+     > For other times, message me through Canvas to schedule an appointment.
 
 - Requesting a 1-on-1, non-office-hour Zoom meeting:
 
